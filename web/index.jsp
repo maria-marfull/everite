@@ -21,13 +21,12 @@
         
     </style>
     <body>
-        <h1>Cigró! </h1>
         <!-- Div principal -->
         <div>
             
             <!-- Div Superior -->
             <div>
-                <table>
+                <table style="border:1px">
                     <tr>
                         <td class="left">
                              <div align="left">Everite</div>
@@ -36,26 +35,47 @@
                              <div align="right">CENTRE D'ESTÈTICA I PERRUQUERIA</div>
                         </td>
                     </tr>
+            <!--
                 </table>
             </div>
         
             <!-- Div central -->
-            <div>
-                <table>
+            <!--
+
+            <div style="padding:60px">
+                <table> -->
                     <tr>
                          <!-- Menu -->
                         <td class="left" style="border-top:solid 1px;">
-                            <ul class="nav nav-list">
-                                <li>
+                            <dl>
+                                <dt>
                                     BENESTAR
-                                </li>
-                                <li>
+                                    <dd>
+                                        FACIALS
+                                    </dd>
+                                    <dd>
+                                        CORPORALS
+                                    </dd>
+                                    <dd>
+                                        DEPILACIONS
+                                    </dd>
+                                    <dd>
+                                        ESTIL
+                                    </dd>
+                                    <dd>
+                                        MEDICINES NATURALS
+                                    </dd>
+                                    <dd>
+                                        APARELLS
+                                    </dd>
+                                </dt>
+                                <dt>
                                     PRODUCTES
-                                </li>
-                                <li>
+                                </dt>
+                                <dt>
                                     CONTACTE
-                                </li>
-                            </ul>
+                                </dt>
+                            </dl>
                         </td>
                         
                         <!-- Imatges -->                        
@@ -63,14 +83,17 @@
                             <image src="./images/dog.jpg" style="padding:10px"/>
                         </td>
                     </tr>
-                </table>
-            </div>
+                    <!-- Div Inferior -->
+                    <tr>
+                        <td colspan="2">
+                            <p align="center">
+                                2010 Evérite centre d'estètica i perruqueria S.L. Tots els drets reservats.
+                            </p>
+                        </td>    
+                    </tr>
+                </table>        
             
             
-            <!-- Div Inferior -->
-            <div>
-            
-            </div>
         </div>
         
     </body>
