@@ -34,16 +34,8 @@
                         <td class="right">
                              <div align="right">CENTRE D'ESTÈTICA I PERRUQUERIA</div>
                         </td>
-                    </tr>
-            <!--
-                </table>
-            </div>
-        
+                    </tr>        
             <!-- Div central -->
-            <!--
-
-            <div style="padding:60px">
-                <table> -->
                     <tr>
                          <!-- Menu -->
                         <td class="left" style="border-top:solid 1px;">
@@ -83,7 +75,7 @@
                             <image src="./images/dog.jpg" style="padding:10px"/>
                         </td>
                     </tr>
-                    <!-- Div Inferior -->
+            <!-- Div Inferior -->
                     <tr>
                         <td colspan="2">
                             <p align="center">
@@ -91,10 +83,7 @@
                             </p>
                         </td>    
                     </tr>
-                </table>        
-            
-            
+                </table>               
         </div>
-        
     </body>
 </html>
