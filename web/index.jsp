@@ -9,56 +9,62 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
         <title>Everite</title>
     </head>
     
-    <style>
-        .body {
-            padding:10px;
-            width: 940px;
+    <style type="text/css">
+        .span4 {
+            height: 100px;
+        }
+        .span8 {
+            height: 100px;
         }
         
-        .header {
-            width: 940px;
+        .h1 {
+            height: 100%;
+            
         }
-        
-        .navigation {
-            padding-right: 20px;
-            width:25%;
-        }
-        
-        .content {
-            width:75%;
-        }
-        
-        .footer {
-            align:center;
-        }
-        
     </style>
     
-    <body class="body">
+    <body>
         <!-- Header -->
-        <div class="header">
-            
-            
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="row-fluid"  style=" padding-bottom:0px">
+                    <div class="span4"><image src="./images/prova.png"/></div>
+                    <div class="span8" style="padding-bottom: 0px">
+                        <h1 style="text-align:right; ">CENTRE D'ESTÈTICA i PERRUQUERIA</h1>
+                    </div>
+                </div>
+            </div>
         </div>
         
         
-            
-        <!-- Navigation -->
-        <div class="navigation">
-            
-        </div> 
+        <!-- Navigation and Content -->
         
-        <!-- Content -->
-        <div class="content">
-            
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <!--Sidebar content-->
+                <div class="span2">
+                    
+                </div>
+                
+                <!--Body content-->                
+                <div class="span10">
+                    
+                </div>
+            </div>
         </div>
         
         <!-- Footer -->
-        <div class="footer">
-            <p>2010 EVÉRITE centre d'estètica i perruqueria S.L. Tots els drets reservats.</p>
+        <div class="row-fluid">
+            <div class="span12">
+                <p>2010 EVÉRITE centre d'estètica i perruqueria S.L. Tots els drets reservats.</p>
+            </div>
         </div>
         
     </body>
