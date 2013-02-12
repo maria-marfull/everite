@@ -31,7 +31,7 @@
         }
         
         .footer {
-            
+            align:center;
         }
         
     </style>
@@ -57,7 +57,7 @@
         
         <!-- Footer -->
         <div class="footer">
-            
+            <p>2010 EVÉRITE centre d'estètica i perruqueria S.L. Tots els drets reservats.</p>
         </div>
         
     </body>
