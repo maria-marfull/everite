@@ -50,6 +50,75 @@
             <div class="row-fluid">
                 <!--Sidebar content-->
                 <div class="span2">
+                    <lu>BENESTAR
+                        <ul> MASSATGE AMB PEDRES CALENTES </ul>
+                        <ul> MASSATGE AMB PINDES FLORALS </ul>
+                        <ul> RITUAL MAGNÈTIC </ul>
+                        <ul> MASSATGE AYURVÈDIC </ul>
+                        <ul> DIAMOND - EXPERIENCE </ul>
+                    </lu>
+                    
+                    <lu>FACIALS
+                        <ul> HIDRATANTS </ul>
+                        <ul> REAFIRMANTS </ul>
+                        <ul> DESPIGMENTANTS </ul>
+                        <ul> ANTIENVELLIMENT </ul>
+                        <ul> OXIGENANTS </ul>
+                        <ul> CATIO-CLEAN </ul>
+                        <ul> CARBOXI - EXPRESS </ul>
+                        <ul> HIDRA-LIFT </ul>
+                    </lu>
+                    
+                    <lu>CORPORALS
+                        <ul> QUIROMASSATGE </ul>
+                        <ul> DRENATGE LINFÀNIC </ul>
+                        <ul> ANTICEL·LULÍTIC </ul>
+                        <ul> REAFIRMANTS </ul>
+                        <ul> POST-PART </ul>
+                        <ul> ALGUES / FANG </ul>
+                        <ul> TRADICIONAL TAILANDÈS </ul>
+                        <ul> SACROCRANEAL </ul>
+                        <ul> PEELING AMB HIDRATACIÓ </ul>
+                        <ul> MASSATGE ON SITE </ul>
+                        <ul> QUIRO - GLOF </ul>
+                        <ul> MASSATGE EVÉRITE </ul>
+                        <ul> RELAX I LLUM </ul>
+                        <ul> LIPOESCULTURA BIOLÓGICA </ul>
+                    </lu>
+                    
+                    <lu>DEPILACIONS
+                        <ul> CERA TÈBIA / CALENTA </ul>
+                        <ul> LÀSER </ul>  
+                    </lu>
+                    
+                    <lu>ESTIL
+                        <ul> PERRUQUERIA </ul>
+                        <ul> PEDICURA / MANICURA </ul>
+                        <ul> MICROPIGMENTACIÓ </ul>
+                        <ul> MAQUILLATGE NIT, DIA I NÚVIES </ul>
+                        <ul> CURS D'AUTOMAQUILLATGE </ul>
+                    </lu>
+                    
+                    <lu>MEDECINES NATURALS
+                        <ul> OSTEOPATIA </ul>
+                        <ul> FLORS DE BACH </ul>
+                        <ul> ACUPUNTURA </ul>
+                    </lu>
+                    
+                    <lu>IOGA INTEGRAL</lu>
+                    
+                    <lu>APARELLS
+                        <ul> VELASMOOTH </ul>
+                        <ul> DERMAJET </ul>
+                        <ul> TEI SISTEM </ul>
+                        <ul> PRESOTERÀPIA </ul>
+                    </lu>
+                    
+                    <lu>PRODUCTES</lu>
+                    <lu>CONTACTE</lu>
+                    
+                    
+                    
                     
                 </div>
                 
