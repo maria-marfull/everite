@@ -19,15 +19,16 @@
         }
         
         .header {
-            
+            width: 940px;
         }
         
         .navigation {
             padding-right: 20px;
+            width:25%;
         }
         
         .content {
-            
+            width:75%;
         }
         
         .footer {
