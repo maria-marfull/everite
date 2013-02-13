@@ -30,6 +30,7 @@
         }
     </style>
     
+    
     <body>
         <!-- Header -->
         <div class="row-fluid">
@@ -129,6 +130,34 @@
             </div>
         </div>
         
+        
+        <div class="accordion" id="accordion2">
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                        <lu>APARELLS</lu>
+                    </a>
+                </div>
+                <div id="collapseOne" class="accordion-body collapse in">
+                    <div class="accordion-inner">
+                        <ul> VELASMOOTH </ul>
+                        <ul> DERMAJET </ul>
+                        <ul> TEI SISTEM </ul>
+                        <ul> PRESOTERÀPIA </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                        Collapsible Group Item #2
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        
         <!-- Footer -->
         <div class="row-fluid">
             <div class="span12">
@@ -136,5 +165,9 @@
             </div>
         </div>
         
+        <script type="text/javascript" src="./bootstrap/folder/jquery.js"></script>
+        <script type="text/javascript" src="./bootstrap/folder/bootstrap-collapse.js"></script>
+        <script type="text/javascript" src="./bootstrap/folder/bootstrap-transition.js"></script>
+
     </body>
 </html>
