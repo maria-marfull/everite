@@ -83,7 +83,7 @@
         <div class="row-fluid">
             <div class="span12">
                 <div class="row-fluid"  style=" padding-bottom:0px">
-                    <div class="span4"><image src="./images/prova.png"/></div>
+                    <div class="span4"><image src="./images/logo.png"/></div>
                     <div class="span8" style="padding-bottom: 0px">
                         <h1 style="text-align:right; ">CENTRE D'ESTÈTICA i PERRUQUERIA</h1>
                     </div>
@@ -107,7 +107,7 @@
                                     <lu>BENESTAR</lu>
                                 </a>
                             </div>
-                            <div id="collapseOne" class="accordion-body collapse in">
+                            <div id="collapseOne" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <ul> MASSATGE AMB PEDRES CALENTES </ul>
                                     <ul> MASSATGE AMB PINDES FLORALS </ul>
@@ -122,7 +122,7 @@
                                     <lu>FACIALS</lu>
                                 </a>
                             </div>
-                            <div id="collapseTwo" class="accordion-body collapse in">
+                            <div id="collapseTwo" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <ul> HIDRATANTS </ul>
                                     <ul> REAFIRMANTS </ul>
@@ -141,7 +141,7 @@
                                     <lu>CORPORALS</lu>
                                 </a>
                             </div>
-                            <div id="collapseThree" class="accordion-body collapse in">
+                            <div id="collapseThree" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <ul> QUIROMASSATGE </ul>
                                     <ul> DRENATGE LINFÀNIC </ul>
@@ -165,7 +165,7 @@
                                     <lu>DEPILACIONS</lu>
                                 </a>
                             </div>
-                            <div id="collapseFour" class="accordion-body collapse in">
+                            <div id="collapseFour" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <ul> CERA TÈBIA / CALENTA </ul>
                                     <ul> LÀSER </ul>  
@@ -177,7 +177,7 @@
                                     <lu>ESTIL</lu>
                                 </a>
                             </div>
-                            <div id="collapseFive" class="accordion-body collapse in">
+                            <div id="collapseFive" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <ul> PERRUQUERIA </ul>
                                     <ul> PEDICURA / MANICURA </ul>
@@ -192,7 +192,7 @@
                                     <lu>MEDECINES NATURALS</lu>
                                 </a>
                             </div>
-                            <div id="collapseSix" class="accordion-body collapse in">
+                            <div id="collapseSix" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <ul> OSTEOPATIA </ul>
                                     <ul> FLORS DE BACH </ul>
@@ -217,7 +217,7 @@
                                     <lu>APARELLS</lu>
                                 </a>
                             </div>
-                            <div id="collapseEight" class="accordion-body collapse in">
+                            <div id="collapseEight" class="accordion-body collapse">
                                 <div class="accordion-inner">
                                     <ul> VELASMOOTH </ul>
                                     <ul> DERMAJET   </ul>
@@ -261,7 +261,7 @@
                 
                 <!--Body content-->                
                 <div class="span10">
-                    
+                    <image src="./images/benestar.jpg"/>
                 </div>
             </div>
         </div>
