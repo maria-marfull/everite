@@ -14,15 +14,17 @@
         <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
         <link href="./bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-
+            
+        
         <title>Everite</title>
     </head>
     
-    <style type="text/css">
+    <style type="text/css" id="grande">
         
         /* Menú de navegació */
         .span2 {
             padding-right: 10px;
+            font-family: century-gotic;
         }
         
         /* Logo */
@@ -69,12 +71,78 @@
         .accordion-toggle {
             font-family:arial;
             color:black;
-            font-size:20px;
+            font-size:16px;
+        }
+        
+        .animacio {
+            widht:700px;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-position: 0 0;
+            background-image: url('./images/benestar.jpg');
         }
         
     </style>
     
-        
+    
+    <!-- Detectar resolució de pantalla 
+    <script LANGUAGE="JavaScript">
+        document.writeln(screen.width + " x " + screen.height)
+        if (screen.width<1024) 
+            document.write ("Pequeña") 
+        else 
+            if (screen.width<1280) 
+                document.write ("Mediana") 
+        else 
+             var node = document.getElementById('grande');
+    </script> 
+    -->
+    
+    <!--    
+    <SCRIPT LANGUAGE="JavaScript">
+        <!--
+        var dimages=new Array();
+        var numImages=2;
+        for (i=0; i<numImages; i++)
+        {
+        dimages[i]=new Image();
+        dimages[i].src="images/image"+(i+1)+".jpg";
+        }
+        var curImage=-1;
+        function swapPicture()
+        {
+        if (document.images)
+        {
+            var nextImage=curImage+1;
+            if (nextImage>=numImages)
+            nextImage=0;
+            if (dimages[nextImage] && dimages[nextImage].complete)
+            {
+            var target=0;
+            if (document.images.myImage)
+                target=document.images.myImage;
+            if (document.all && document.getElementById("myImage"))
+                target=document.getElementById("myImage");
+
+            // make sure target is valid.  It might not be valid
+            //   if the page has not finished loading
+            if (target)
+            {
+                target.src=dimages[nextImage].src;
+                curImage=nextImage;
+            }
+            setTimeout("swapPicture()", 5000);
+            }
+            else
+            {
+            setTimeout("swapPicture()", 500);
+            }
+        }
+        }
+        setTimeout("swapPicture()", 5000);
+    </SCRIPT>   
+    -->
+    
     
     <body>
         
@@ -83,7 +151,7 @@
         <div class="row-fluid">
             <div class="span12">
                 <div class="row-fluid"  style=" padding-bottom:0px">
-                    <div class="span4"><image src="./images/logo.png"/></div>
+                    <div class="span4"><image src="./images/Logotip.gif"/></div>
                     <div class="span8" style="padding-bottom: 0px">
                         <h1 style="text-align:right; ">CENTRE D'ESTÈTICA i PERRUQUERIA</h1>
                     </div>
@@ -104,37 +172,38 @@
                             
                             <div class="accordion-heading">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                                    <lu>BENESTAR</lu>
+                                    BENESTAR
                                 </a>
                             </div>
                             <div id="collapseOne" class="accordion-body collapse">
                                 <div class="accordion-inner">
-                                    <ul> MASSATGE AMB PEDRES CALENTES </ul>
-                                    <ul> MASSATGE AMB PINDES FLORALS </ul>
-                                    <ul> RITUAL MAGNÈTIC </ul>
-                                    <ul> MASSATGE AYURVÈDIC </ul>
-                                    <ul> DIAMOND - EXPERIENCE </ul>
+                                    MASSATGE AMB PEDRES CALENTES
+                                    MASSATGE AMB PINDES FLORALS
+                                    RITUAL MAGNÈTIC
+                                    MASSATGE AYURVÈDIC
+                                    DIAMOND - EXPERIENCE
                                 </div>
                             </div>
                             
+                            <ul>
                             <div class="accordion-heading">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                                    <lu>FACIALS</lu>
+                                    <h2>FACIALS</h2>
                                 </a>
                             </div>
                             <div id="collapseTwo" class="accordion-body collapse">
                                 <div class="accordion-inner">
-                                    <ul> HIDRATANTS </ul>
-                                    <ul> REAFIRMANTS </ul>
-                                    <ul> DESPIGMENTANTS </ul>
-                                    <ul> ANTIENVELLIMENT </ul>
-                                    <ul> OXIGENANTS </ul>
-                                    <ul> CATIO-CLEAN </ul>
-                                    <ul> CARBOXI - EXPRESS </ul>
-                                    <ul> HIDRA-LIFT </ul>
+                                    <li> HIDRATANTS </li>
+                                    <li> REAFIRMANTS </li>
+                                    <li> DESPIGMENTANTS </li>
+                                    <li> ANTIENVELLIMENT </li>
+                                    <li> OXIGENANTS </li>
+                                    <li> CATIO-CLEAN </li>
+                                    <li> CARBOXI - EXPRESS </li>
+                                    <li> HIDRA-LIFT </li>
                                 </div>
                             </div>
-                            
+                            </ul>
                             
                             <div class="accordion-heading">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
@@ -261,7 +330,9 @@
                 
                 <!--Body content-->                
                 <div class="span10">
-                    <image src="./images/benestar.jpg"/>
+                    <div id="animacio" class="animacio">
+                        
+                    </div>
                 </div>
             </div>
         </div>
@@ -276,9 +347,38 @@
             </div>
         </div>
         
+
         <script type="text/javascript" src="./bootstrap/folder/jquery.js"></script>
         <script type="text/javascript" src="./bootstrap/folder/bootstrap-collapse.js"></script>
         <script type="text/javascript" src="./bootstrap/folder/bootstrap-transition.js"></script>
+        
+        <script type="text/javascript">
+            var interval;
+            
+            $(document).ready( function()
+                {
+                    setInterval("change_image()", 8000);     
+                    change_image();
+                }
+            );
+                
+            function change_image() {
+                clearInterval(interval);
+                move_image();
+            }
+            
+            function move_image() {
+                var x = 0;
+	        var y = 0;
+                interval = window.setInterval(function() {
+                    $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+	            y--;
+	            //x--; if you need to scroll image horizontally - uncomment x and comment y
+	        }, 90);
+            }
+            
+        </script>
 
     </body>
 </html>
+
