@@ -75,11 +75,24 @@
         }
         
         .animacio {
+            max-width: 700px;
             widht:700px;
             height: 400px;
             background-repeat: no-repeat;
             background-position: 0 0;
-            background-image: url('./images/benestar.jpg');
+            overflow: hidden;
+           /* background-image: url('./images/benestar.jpg'); */
+        }
+        
+        .all {
+            width: 940px;
+            min-width: 940px;
+            max-width: 940px;
+            margin: auto;
+        }
+        
+        body {
+            text-align: center;
         }
         
     </style>
@@ -97,263 +110,228 @@
              var node = document.getElementById('grande');
     </script> 
     -->
-    
-    <!--    
-    <SCRIPT LANGUAGE="JavaScript">
-        <!--
-        var dimages=new Array();
-        var numImages=2;
-        for (i=0; i<numImages; i++)
-        {
-        dimages[i]=new Image();
-        dimages[i].src="images/image"+(i+1)+".jpg";
-        }
-        var curImage=-1;
-        function swapPicture()
-        {
-        if (document.images)
-        {
-            var nextImage=curImage+1;
-            if (nextImage>=numImages)
-            nextImage=0;
-            if (dimages[nextImage] && dimages[nextImage].complete)
-            {
-            var target=0;
-            if (document.images.myImage)
-                target=document.images.myImage;
-            if (document.all && document.getElementById("myImage"))
-                target=document.getElementById("myImage");
-
-            // make sure target is valid.  It might not be valid
-            //   if the page has not finished loading
-            if (target)
-            {
-                target.src=dimages[nextImage].src;
-                curImage=nextImage;
-            }
-            setTimeout("swapPicture()", 5000);
-            }
-            else
-            {
-            setTimeout("swapPicture()", 500);
-            }
-        }
-        }
-        setTimeout("swapPicture()", 5000);
-    </SCRIPT>   
-    -->
-    
+         
     
     <body>
         
-          
-        <!-- Header -->
-        <div class="row-fluid">
-            <div class="span12">
-                <div class="row-fluid"  style=" padding-bottom:0px">
-                    <div class="span4"><image src="./images/Logotip.gif"/></div>
-                    <div class="span8" style="padding-bottom: 0px">
-                        <h1 style="text-align:right; ">CENTRE D'ESTÈTICA i PERRUQUERIA</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        
-        <!-- Navigation and Content -->
-        
-        <div class="container-fluid">
+        <div class="all">  
+            <!-- Header -->
             <div class="row-fluid">
-                <!--Sidebar content-->
-                <div class="span2">
-                    
-                    <div class="accordion" id="accordion2">
-                        <div class="accordion-group">
-                            
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                                    BENESTAR
-                                </a>
-                            </div>
-                            <div id="collapseOne" class="accordion-body collapse">
-                                <div class="accordion-inner">
-                                    MASSATGE AMB PEDRES CALENTES
-                                    MASSATGE AMB PINDES FLORALS
-                                    RITUAL MAGNÈTIC
-                                    MASSATGE AYURVÈDIC
-                                    DIAMOND - EXPERIENCE
-                                </div>
-                            </div>
-                            
-                            <ul>
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                                    <h2>FACIALS</h2>
-                                </a>
-                            </div>
-                            <div id="collapseTwo" class="accordion-body collapse">
-                                <div class="accordion-inner">
-                                    <li> HIDRATANTS </li>
-                                    <li> REAFIRMANTS </li>
-                                    <li> DESPIGMENTANTS </li>
-                                    <li> ANTIENVELLIMENT </li>
-                                    <li> OXIGENANTS </li>
-                                    <li> CATIO-CLEAN </li>
-                                    <li> CARBOXI - EXPRESS </li>
-                                    <li> HIDRA-LIFT </li>
-                                </div>
-                            </div>
-                            </ul>
-                            
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                                    <lu>CORPORALS</lu>
-                                </a>
-                            </div>
-                            <div id="collapseThree" class="accordion-body collapse">
-                                <div class="accordion-inner">
-                                    <ul> QUIROMASSATGE </ul>
-                                    <ul> DRENATGE LINFÀNIC </ul>
-                                    <ul> ANTICEL·LULÍTIC </ul>
-                                    <ul> REAFIRMANTS </ul>
-                                    <ul> POST-PART </ul>
-                                    <ul> ALGUES / FANG </ul>
-                                    <ul> TRADICIONAL TAILANDÈS </ul>
-                                    <ul> SACROCRANEAL </ul>
-                                    <ul> PEELING AMB HIDRATACIÓ </ul>
-                                    <ul> MASSATGE ON SITE </ul>
-                                    <ul> QUIRO - GLOF </ul>
-                                    <ul> MASSATGE EVÉRITE </ul>
-                                    <ul> RELAX I LLUM </ul>
-                                    <ul> LIPOESCULTURA BIOLÓGICA </ul>
-                                </div>
-                            </div>
-                            
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
-                                    <lu>DEPILACIONS</lu>
-                                </a>
-                            </div>
-                            <div id="collapseFour" class="accordion-body collapse">
-                                <div class="accordion-inner">
-                                    <ul> CERA TÈBIA / CALENTA </ul>
-                                    <ul> LÀSER </ul>  
-                                </div>
-                            </div>
-                            
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
-                                    <lu>ESTIL</lu>
-                                </a>
-                            </div>
-                            <div id="collapseFive" class="accordion-body collapse">
-                                <div class="accordion-inner">
-                                    <ul> PERRUQUERIA </ul>
-                                    <ul> PEDICURA / MANICURA </ul>
-                                    <ul> MICROPIGMENTACIÓ </ul>
-                                    <ul> MAQUILLATGE NIT, DIA I NÚVIES </ul>
-                                    <ul> CURS D'AUTOMAQUILLATGE </ul>
-                                </div>
-                            </div>
-                            
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix">
-                                    <lu>MEDECINES NATURALS</lu>
-                                </a>
-                            </div>
-                            <div id="collapseSix" class="accordion-body collapse">
-                                <div class="accordion-inner">
-                                    <ul> OSTEOPATIA </ul>
-                                    <ul> FLORS DE BACH </ul>
-                                    <ul> ACUPUNTURA </ul>
-                                </div>
-                            </div>
-                            
-                            
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven">
-                                    <lu>IOGA INTEGRAL</lu>
-                                </a>
-                            </div>
-                            <!--
-                            <div id="collapseSeven" class="accordion-body collapse in">
-                                <div class="accordion-inner">
-                                </div>
-                            </div>
-                            -->
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseEight">
-                                    <lu>APARELLS</lu>
-                                </a>
-                            </div>
-                            <div id="collapseEight" class="accordion-body collapse">
-                                <div class="accordion-inner">
-                                    <ul> VELASMOOTH </ul>
-                                    <ul> DERMAJET   </ul>
-                                    <ul> TEI SISTEM </ul>
-                                    <ul> PRESOTERÀPIA </ul>
-                                </div>
-                            </div>
-
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseNine">
-                                    <lu>PRODUCTES</lu>
-                                </a>
-                            </div>
-                            <!--
-                            <div id="collapseNine" class="accordion-body collapse">
-                                <div class="accordion-inner">
-                                </div>
-                            </div>
-                            -->
-                        
-                            
-                            <div class="accordion-heading">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTen">
-                                    <lu>CONTACTE</lu>
-                                </a>
-                            </div>
-                            <!--
-                            <div id="collapseTen" class="accordion-body collapse">
-                                <div class="accordion-inner">
-                                </div>
-                            </div>
-                            -->
+                <div class="span12">
+                    <div class="row-fluid"  style=" padding-bottom:0px">
+                        <div class="span4"><image src="./images/Logotip.gif"/></div>
+                        <div class="span8" style="padding-bottom: 0px">
+                            <h1 style="text-align:right; ">CENTRE D'ESTÈTICA i PERRUQUERIA</h1>
                         </div>
                     </div>
-                
                 </div>
-                
-                
-                
-                
-                
-                <!--Body content-->                
-                <div class="span10">
-                    <div id="animacio" class="animacio">
-                        
+            </div>
+
+
+            <!-- Navigation and Content -->
+
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <!--Sidebar content-->
+                    <div class="span2">
+
+                        <div class="accordion" id="accordion2">
+                            <div class="accordion-group">
+
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                                        BENESTAR
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        MASSATGE AMB PEDRES CALENTES
+                                        MASSATGE AMB PINDES FLORALS
+                                        RITUAL MAGNÈTIC
+                                        MASSATGE AYURVÈDIC
+                                        DIAMOND - EXPERIENCE
+                                    </div>
+                                </div>
+
+                                <ul>
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                                        <h2>FACIALS</h2>
+                                    </a>
+                                </div>
+                                <div id="collapseTwo" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <li> HIDRATANTS </li>
+                                        <li> REAFIRMANTS </li>
+                                        <li> DESPIGMENTANTS </li>
+                                        <li> ANTIENVELLIMENT </li>
+                                        <li> OXIGENANTS </li>
+                                        <li> CATIO-CLEAN </li>
+                                        <li> CARBOXI - EXPRESS </li>
+                                        <li> HIDRA-LIFT </li>
+                                    </div>
+                                </div>
+                                </ul>
+
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                                        <lu>CORPORALS</lu>
+                                    </a>
+                                </div>
+                                <div id="collapseThree" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <ul> QUIROMASSATGE </ul>
+                                        <ul> DRENATGE LINFÀNIC </ul>
+                                        <ul> ANTICEL·LULÍTIC </ul>
+                                        <ul> REAFIRMANTS </ul>
+                                        <ul> POST-PART </ul>
+                                        <ul> ALGUES / FANG </ul>
+                                        <ul> TRADICIONAL TAILANDÈS </ul>
+                                        <ul> SACROCRANEAL </ul>
+                                        <ul> PEELING AMB HIDRATACIÓ </ul>
+                                        <ul> MASSATGE ON SITE </ul>
+                                        <ul> QUIRO - GLOF </ul>
+                                        <ul> MASSATGE EVÉRITE </ul>
+                                        <ul> RELAX I LLUM </ul>
+                                        <ul> LIPOESCULTURA BIOLÓGICA </ul>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                                        <lu>DEPILACIONS</lu>
+                                    </a>
+                                </div>
+                                <div id="collapseFour" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <ul> CERA TÈBIA / CALENTA </ul>
+                                        <ul> LÀSER </ul>  
+                                    </div>
+                                </div>
+
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
+                                        <lu>ESTIL</lu>
+                                    </a>
+                                </div>
+                                <div id="collapseFive" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <ul> PERRUQUERIA </ul>
+                                        <ul> PEDICURA / MANICURA </ul>
+                                        <ul> MICROPIGMENTACIÓ </ul>
+                                        <ul> MAQUILLATGE NIT, DIA I NÚVIES </ul>
+                                        <ul> CURS D'AUTOMAQUILLATGE </ul>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix">
+                                        <lu>MEDECINES NATURALS</lu>
+                                    </a>
+                                </div>
+                                <div id="collapseSix" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <ul> OSTEOPATIA </ul>
+                                        <ul> FLORS DE BACH </ul>
+                                        <ul> ACUPUNTURA </ul>
+                                    </div>
+                                </div>
+
+
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven">
+                                        <lu>IOGA INTEGRAL</lu>
+                                    </a>
+                                </div>
+                                <!--
+                                <div id="collapseSeven" class="accordion-body collapse in">
+                                    <div class="accordion-inner">
+                                    </div>
+                                </div>
+                                -->
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseEight">
+                                        <lu>APARELLS</lu>
+                                    </a>
+                                </div>
+                                <div id="collapseEight" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <ul> VELASMOOTH </ul>
+                                        <ul> DERMAJET   </ul>
+                                        <ul> TEI SISTEM </ul>
+                                        <ul> PRESOTERÀPIA </ul>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseNine">
+                                        <lu>PRODUCTES</lu>
+                                    </a>
+                                </div>
+                                <!--
+                                <div id="collapseNine" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                    </div>
+                                </div>
+                                -->
+
+
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTen">
+                                        <lu>CONTACTE</lu>
+                                    </a>
+                                </div>
+                                <!--
+                                <div id="collapseTen" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                    </div>
+                                </div>
+                                -->
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <!--Body content-->                
+                    <div class="span10">
+                        <div id="animacio" class="animacio">
+
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
-        
-        
-        
-        <!-- Footer -->
-        <div class="row-fluid">
-            <div class="span12">
-                <p id="footer">2010 EVÉRITE centre d'estètica i perruqueria S.L. Tots els drets reservats.</p>
-            </div>
-        </div>
-        
 
+
+
+
+            <!-- Footer -->
+            <div class="row-fluid">
+                <div class="span12">
+                    <p id="footer">2010 EVÉRITE centre d'estètica i perruqueria S.L. Tots els drets reservats.</p>
+                </div>
+            </div>
+        
+        </div>
+        
         <script type="text/javascript" src="./bootstrap/folder/jquery.js"></script>
         <script type="text/javascript" src="./bootstrap/folder/bootstrap-collapse.js"></script>
         <script type="text/javascript" src="./bootstrap/folder/bootstrap-transition.js"></script>
         
         <script type="text/javascript">
             var interval;
+            var home_images = new Array();
+            var numHomeImages = 6;
+            var cont = 1;
+            
+            for (var i = 0; i < numHomeImages; i++)
+            {
+                home_images[i] = new Image();
+                home_images[i].src= "./images/home/"+ (i) +".jpg";
+            }
             
             $(document).ready( function()
                 {
@@ -364,6 +342,13 @@
                 
             function change_image() {
                 clearInterval(interval);
+                
+                $("div#animacio").css("background-image", "url('" + home_images[cont].src + "')" );
+
+                cont = cont + 1;
+              
+                if (cont > 5) cont = 1;
+                
                 move_image();
             }
             
@@ -377,8 +362,9 @@
 	        }, 90);
             }
             
-        </script>
-
+        </script>        
+        
+    
     </body>
 </html>
 
