@@ -327,17 +327,22 @@
             var interval;
             var home_images = new Array();
             var numHomeImages = 6;
-            var cont = 1;
-            
+            var cont = 0;
+            var swit = cont;
+            var x = 0;
+            var y = 0;
+                    
             for (var i = 0; i < numHomeImages; i++)
             {
                 home_images[i] = new Image();
-                home_images[i].src= "./images/home/"+ (i) +".jpg";
+                home_images[i].src= "./images/home/"+ (i+1) +".jpg";
+                
+                console.log(home_images[i]);
             }
             
             $(document).ready( function()
                 {
-                    setInterval("change_image()", 8000);     
+                    setInterval("change_image()", 7000);     
                     change_image();
                 }
             );
@@ -347,21 +352,62 @@
                 
                 $("div#animacio").css("background-image", "url('" + home_images[cont].src + "')" );
 
+                swit = cont;
                 cont = cont + 1;
               
-                if (cont > 5) cont = 1;
+                if (cont > 5) cont = 0;
                 
                 move_image();
             }
             
             function move_image() {
-                var x = 0;
-	        var y = 0;
+                
+                
+                if (swit == 1) {
+                    x = -200;
+                    y = 0;
+                    $("div#animacio").css("backgroundPosition", -200  + 'px' + ' ' + 0 + 'px');
+                    
+                }
+                else { 
+                    x = 0;
+                    y = 0;
+                    $("div#animacio").css("backgroundPosition", 0 + 'px' + ' ' + 0 + 'px');
+                }
                 interval = window.setInterval(function() {
-                    $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
-	            y--;
-	            //x--; if you need to scroll image horizontally - uncomment x and comment y
-	        }, 90);
+
+                    switch(swit) {
+                        case 0:
+                            $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+                            y--;
+                            break;
+                        
+                        case 1:
+                            $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+                            x++;
+                            break;
+                            
+                        case 2:
+                            $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+                            x--;
+                            break;
+                        
+                        case 3:
+                            $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+                            break;
+                            
+                        case 4:
+                            $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+                            x--;
+                            break;
+                        
+                        case 5:
+                            $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+                            x--;
+                            break;
+                    }                    
+	        }, 150);
+                
             }
             
         </script>        
