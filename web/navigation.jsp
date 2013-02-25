@@ -4,9 +4,10 @@
         <div class="accordion-group">
 
             <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                    BENESTAR
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" >
+                    BENESTAR      
                 </a>
+               
             </div>
             <div id="collapseOne" class="accordion-body collapse">
                 <div class="accordion-inner">
@@ -21,7 +22,7 @@
             <ul>
             <div class="accordion-heading">
                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                    <h2>FACIALS</h2>
+                    <h2 class="submenu">FACIALS</h2>
                 </a>
             </div>
             <div id="collapseTwo" class="accordion-body collapse">
@@ -40,7 +41,7 @@
 
             <div class="accordion-heading">
                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                    <lu>CORPORALS</lu>
+                    <h2 class="submenu">CORPORALS</h2>
                 </a>
             </div>
             <div id="collapseThree" class="accordion-body collapse">
@@ -130,7 +131,8 @@
 
             <div class="accordion-heading">
                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseNine">
-                    <lu>PRODUCTES</lu>
+                    
+                    <li><a href="./productes.jsp">PRODUCTES</a></li>
                 </a>
             </div>
             <!--
@@ -143,7 +145,7 @@
 
             <div class="accordion-heading">
                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTen">
-                    <lu>CONTACTE</lu>
+                    <li><a href="./contacte.jsp">CONTACTE</a></li>
                 </a>
             </div>
             <!--

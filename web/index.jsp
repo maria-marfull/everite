@@ -15,7 +15,7 @@
         <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
         <link href="./bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
         <link href="./style.css" rel="stylesheet">
-            
+        <link type="image/x-icon" href="./images/Logotip.gif" rel="shortcut icon"/>   
         
         <title>Everite</title>
     </head>
@@ -41,6 +41,8 @@
         
             <jsp:include page="./header.jsp" />
             
+            <div class ="line" >
+        
             <!-- Navigation and Content -->
 
             <div class="container-fluid">
@@ -63,7 +65,7 @@
 
             <jsp:include page="./footer.jsp" />
 
-            
+            </div>
         
         </div>
         

@@ -42,7 +42,7 @@
 
 .h1 {
     height: 100%;
-
+    font-size:12px;
 }
 
 .accordion-group {
@@ -79,4 +79,33 @@
 
 body {
     text-align: center;
+}
+
+.h2 {
+    font-family: century-gotic;
+    font-size: 10px;
+    
+}
+
+.line {
+    padding-top:10px;
+    padding-right: 10px;
+    border-top:1px solid #CCCCCC;
+    border-right:1px solid #CCCCCC;
+}
+
+.title {
+    text-align:right; 
+    font-style: century-gotic; 
+    color: grey;
+    font-size:20px;
+    padding-bottom: 0px;
+}
+
+.submenu {
+    font-style: century-gotic; 
+    font-size:16px;
+    color: black;
+    font-weight: normal;
+    text-align: left; 
 }
