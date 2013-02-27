@@ -40,29 +40,24 @@
         <div class="all">  
         
             <jsp:include page="./header.jsp" />
-            
-            <div class ="line" >
-        
+      
             <!-- Navigation and Content -->
-
-            <div class="container-fluid">
-                <div class="row-fluid">
-                    
+            <table>
+                <tr>
+                    <td >
                     <!--Sidebar content-->
                     <jsp:include page="./navigation.jsp" />
-
-                    <!--Body content-->                
-                    <div class="span10">
+                    </td>
+                    <!--Body content-->   
+                    <td style="vertical-align: 0;">
+                    <div class="contingut">
                         <div id="animacio" class="animacio">
 
                         </div>
                     </div>
-                    
-                </div>
-            </div>
-
-
-
+                    </td>
+                </tr>
+            </table>      
             <jsp:include page="./footer.jsp" />
 
             </div>

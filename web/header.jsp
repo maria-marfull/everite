@@ -1,6 +1,6 @@
 <!-- Header -->
 <div class="row-fluid">
-    <div class="span12">
+    <div class="header">
         <div class="row-fluid"  style=" padding-bottom:0px">
             <div class="span4"><a href="./index.jsp"><img src="./images/Logotip.gif" /></a></div>
             <div class="span8" style="padding-bottom: 0px">

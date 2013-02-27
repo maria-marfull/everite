@@ -1,4 +1,4 @@
-<div class="span2">
+<div class="menu">
 
     <div class="accordion" id="accordion2">
         <div class="accordion-group">
