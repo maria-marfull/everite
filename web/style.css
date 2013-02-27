@@ -31,7 +31,7 @@ body {
     width: 700px;
     padding-right: 20px;
     padding-top: 20px;
-    border-right:1px solid #CCCCCC;
+    
     
 }
 
@@ -102,7 +102,7 @@ body {
 
 .header {
     width: 960px;
-    border-bottom: 1px solid #CCCCCC;
+    
     
 }
 
@@ -152,4 +152,6 @@ tr {
 table {
     border: 0;
     border-collapse: collapse;
+    border-top: 1px solid #CCCCCC;
+    border-right:1px solid #CCCCCC;
 }

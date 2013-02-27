@@ -2,13 +2,14 @@
 
     <div class="accordion" id="accordion2">
         <div class="accordion-group">
-
+            
             <div class="accordion-heading">
-                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne" >
-                    BENESTAR      
+                <a class="accordion-toggle link" data-href="./benestar.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                    BENESTAR
                 </a>
                
             </div>
+            
             <div id="collapseOne" class="accordion-body collapse">
                 <div class="accordion-inner">
                     MASSATGE AMB PEDRES CALENTES
@@ -18,7 +19,7 @@
                     DIAMOND - EXPERIENCE
                 </div>
             </div>
-
+            
             <ul>
             <div class="accordion-heading">
                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
@@ -158,4 +159,3 @@
     </div>
 
 </div>
-
