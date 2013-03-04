@@ -165,3 +165,11 @@ a {
     text-align: left;
     font-family:century gothic;
 }
+
+#animacioBenestar {
+    position: absolute;
+}
+
+.divBenestar {
+    position: relative;
+}

@@ -37,6 +37,7 @@
             if (cont > 2) cont = 0;
         });
 
+
         //$("div#animacioBenestar").css("background-image", "url('" + benestar_images[cont].src + "')" );
     }
 

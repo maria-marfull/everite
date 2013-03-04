@@ -76,6 +76,8 @@
 
                     <script type="text/javascript">
                         var interval;
+                        var interval_move;
+                        
                         var home_images = new Array();
                         var numHomeImages = 6;
                         var cont = 0;
@@ -119,6 +121,7 @@
                         }
 
                         function move_image() {
+                            clearInterval(interval_move);
 
 
                             if (swit == 1) {
@@ -132,7 +135,7 @@
                                 y = 0;
                                 $("div#animacio").css("backgroundPosition", 0 + 'px' + ' ' + 0 + 'px');
                             }
-                            interval = window.setInterval(function() {
+                            interval_move = window.setInterval(function() {
 
                                 switch(swit) {
                                     case 0:
