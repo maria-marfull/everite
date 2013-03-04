@@ -2,38 +2,41 @@
                        
        
 <script type="text/javascript">
-    var interval;
-    var benestar_images = new Array();
-    var numBenestarImages = 1;
+    clearInterval(interval);
+    
+    var medicines_images = new Array();
+    var numMedicinesImages = 1;
     var cont = 0;
     var swit = cont;
 
-    for (var i = 0; i < numBenestarImages; i++)
+    for (var i = 0; i < numMedicinesImages; i++)
     {
-        benestar_images[i] = new Image();
-        benestar_images[i].src= "./images/medicinesNaturals/"+ (i+1) +".jpg";
+        medicines_images[i] = new Image();
+        medicines_images[i].src= "./images/medicinesNaturals/"+ (i+1) +".jpg";
 
-        console.log(benestar_images[i]);
+        console.log(medicines_images[i]);
     }
 
     $(document).ready( function()
         {
-            setInterval("change_image()", 7000);     
+            interval = setInterval("change_image()", 7000);     
             change_image();
 
         }
     );
 
     function change_image() {
-        //clearInterval(interval);
+        
+        $('div#animacioMedicines').fadeOut(1000, function() {
+            $(this).css("background-image", "url('" + medicines_images[cont].src + "')" )
+            
+            $(this).fadeIn(3000);
+            
+            swit = cont;
+            cont = cont + 1;
 
-        $("div#animacioMedicines").css("background-image", "url('" + benestar_images[cont].src + "')" );
-
-        swit = cont;
-        cont = cont + 1;
-
-        if (cont > 1) cont = 0;
-
+            if (cont > 1) cont = 0;
+        });
     }
 
 </script>  

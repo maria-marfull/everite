@@ -42,16 +42,15 @@
         
        
         <script>
-        $(document).ready(function() {
-            $("a.link").click(function(e){
-                e.preventDefault();
-                var url = $(this).data("href");
-                $.get(url, function(html){
-                    $("#content").html(html);
+            $(document).ready(function() {
+                $("a.link").click(function(e){
+                    e.preventDefault();
+                    var url = $(this).data("href");
+                    $.get(url, function(html){
+                        $("#content").html(html);
+                    });
                 });
             });
-        });
-        
         </script>
 
         <div class="all">  
@@ -61,127 +60,132 @@
         
             <!-- Navigation and Content -->
             <table>
-                
-                    <tr>
-                    <td>
-                    <!--Sidebar content-->
-                    <jsp:include page="./navigation.jsp">
-                        <jsp:param name="section" value="index" />
-                    </jsp:include>
-                    </td>
-                    
-                    <!--Body content-->   
-                    <td style="vertical-align: 0;">
-                    
-                    <div class="contingut" id="content">
 
-                        
-                        
-                               <script type="text/javascript">
-                                    var interval;
-                                    var home_images = new Array();
-                                    var numHomeImages = 6;
-                                    var cont = 0;
-                                    var swit = cont;
-                                    var x = 0;
-                                    var y = 0;
+                <tr>
+                <td>
+                <!--Sidebar content-->
+                <jsp:include page="./navigation.jsp">
+                    <jsp:param name="section" value="index" />
+                </jsp:include>
+                </td>
 
-                                    for (var i = 0; i < numHomeImages; i++)
-                                    {
-                                        home_images[i] = new Image();
-                                        home_images[i].src= "./images/home/"+ (i+1) +".jpg";
+                <!--Body content-->   
+                <td style="vertical-align: 0;">
 
-                                        console.log(home_images[i]);
-                                    }
+                <div class="contingut" id="content">
 
-                                    $(document).ready( function()
-                                        {
-                                            setInterval("change_image()", 7000);     
-                                            change_image();
-                                        }
-                                    );
+                    <script type="text/javascript">
+                        var interval;
+                        var home_images = new Array();
+                        var numHomeImages = 6;
+                        var cont = 0;
+                        var swit = cont;
+                        var x = 0;
+                        var y = 0;
 
-                                    function change_image() {
-                                        clearInterval(interval);
+                        for (var i = 0; i < numHomeImages; i++)
+                        {
+                            home_images[i] = new Image();
+                            home_images[i].src= "./images/home/"+ (i+1) +".jpg";
 
-                                        $("div#animacio").css("background-image", "url('" + home_images[cont].src + "')" );
+                            console.log(home_images[i]);
+                        }
 
-                                        swit = cont;
-                                        cont = cont + 1;
+                        $(document).ready( function()
+                            {
+                                clearInterval(interval);
+                                interval = setInterval("change_image()", 7000);     
+                                change_image();
+                            }
+                        );
 
-                                        if (cont > 5) cont = 0;
+                        function change_image() {
 
-                                        move_image();
-                                    }
+                            $('div#animacio').fadeOut(700, function() {
+                                $(this).css("background-image", "url('" + home_images[cont].src + "')" )
+                                $(this).fadeIn("slow");
 
-                                    function move_image() {
+                                swit = cont;
+                                cont = cont + 1;
+
+                                if (cont > 5) cont = 0;
+
+                                move_image();
+                            });
+
+                            //$("div#animacio").css("background-image", "url('" + home_images[cont].src + "')" );
 
 
-                                        if (swit == 1) {
-                                            x = -200;
-                                            y = 0;
-                                            $("div#animacio").css("backgroundPosition", -200  + 'px' + ' ' + 0 + 'px');
+                        }
 
-                                        }
-                                        else { 
-                                            x = 0;
-                                            y = 0;
-                                            $("div#animacio").css("backgroundPosition", 0 + 'px' + ' ' + 0 + 'px');
-                                        }
-                                        interval = window.setInterval(function() {
+                        function move_image() {
 
-                                            switch(swit) {
-                                                case 0:
-                                                    $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
-                                                    y--;
-                                                    break;
 
-                                                case 1:
-                                                    $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
-                                                    x++;
-                                                    break;
+                            if (swit == 1) {
+                                x = -200;
+                                y = 0;
+                                $("div#animacio").css("backgroundPosition", -200  + 'px' + ' ' + 0 + 'px');
 
-                                                case 2:
-                                                    $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
-                                                    x--;
-                                                    break;
+                            }
+                            else { 
+                                x = 0;
+                                y = 0;
+                                $("div#animacio").css("backgroundPosition", 0 + 'px' + ' ' + 0 + 'px');
+                            }
+                            interval = window.setInterval(function() {
 
-                                                case 3:
-                                                    $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
-                                                    break;
+                                switch(swit) {
+                                    case 0:
+                                        $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+                                        y--;
+                                        break;
 
-                                                case 4:
-                                                    $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
-                                                    x--;
-                                                    break;
+                                    case 1:
+                                        $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+                                        x++;
+                                        break;
 
-                                                case 5:
-                                                    $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
-                                                    x--;
-                                                    break;
-                                            }                    
-                                        }, 150);
+                                    case 2:
+                                        $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+                                        x--;
+                                        break;
 
-                                    }
+                                    case 3:
+                                        $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+                                        break;
 
-                                </script>        
-        
-                        
-                        <div id="animacio" class="animacio">
-                        
-                        </div>
+                                    case 4:
+                                        $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+                                        x--;
+                                        break;
+
+                                    case 5:
+                                        $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+                                        x--;
+                                        break;
+                                }                    
+                            }, 150);
+
+                        }
+
+                    </script>        
+
+
+                    <div id="animacio" class="animacio">
+
                     </div>
-                    </td>
-                    </tr>
                 </div>
+                </td>
+                </tr>
             </div>
+        </div>
 
 
-            </table>
+        </table>
 
-            <jsp:include page="./footer.jsp" />
+        <jsp:include page="./footer.jsp" />
 
-        
+
        
     
     </body>
