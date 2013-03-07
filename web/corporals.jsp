@@ -21,7 +21,7 @@
     $(document).ready( function()
         {
             clearInterval(interval);
-            //interval = setInterval("change_image()", 7000);     
+            interval = setInterval("change_image()", 7000);     
             change_image();
 
         }
@@ -36,7 +36,7 @@
             swit = cont;
             cont = cont + 1;
 
-            if (cont > 1) cont = 0;
+            if (cont > 2) cont = 0;
         });
     }
 
