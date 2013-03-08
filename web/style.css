@@ -116,15 +116,15 @@ body {
 }
 
 .line {
-    padding-top:10px;
-    padding-right: 10px;
-    border-top:1px solid #CCCCCC;
+    border: 0;
+    border-collapse: collapse;
+    border-top: 1px solid #CCCCCC;
     border-right:1px solid #CCCCCC;
 }
 
 .title {
     text-align:right; 
-    font-style: century-gotic; 
+    font-style: century gothic; 
     color: grey;
     font-size:20px;
     padding-bottom: 0px;
@@ -138,23 +138,6 @@ body {
     text-align: left; 
 }
 
-td {
-    border: 0;
-    border-collapse: collapse;
-}
-
-tr {
-    border: 0;
-    border-collapse: collapse;
-}
-
-table {
-    border: 0;
-    border-collapse: collapse;
-    border-top: 1px solid #CCCCCC;
-    border-right:1px solid #CCCCCC;
-}
-
 p {
     text-align: left;
     padding-left: 15px;
@@ -164,6 +147,11 @@ p {
 a {
     text-align: left;
     font-family:century gothic;
+}
+
+.lletra {
+    font-family: century gothic;
+    text-align: left;
 }
 
 #animacioBenestar {

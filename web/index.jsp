@@ -59,7 +59,7 @@
             
         
             <!-- Navigation and Content -->
-            <table>
+            <table class="line">
 
                 <tr>
                 <td>
