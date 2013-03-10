@@ -1,4 +1,6 @@
+
 <div id="animacioBenestar" class="animacio">
+    <p>Terapia relaxant amb pedres volcàniques, elimina tensions activant tota la movilitat interna mitjançant calor.</p>
 
 <script type="text/javascript">
     clearInterval(interval);
