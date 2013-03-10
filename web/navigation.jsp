@@ -11,7 +11,7 @@
             
             <div id="collapseOne" class="accordion-body collapse">
                 <div class="accordion-inner">
-                    <a href="#collapseOne" data-href="./Benestar/benestar1.jsp">MASSATGE AMB PEDRES CALENTES</a>
+                    <a class="accordion-toggle link" href="#collapseOne" data-href="./Benestar/benestar1.jsp">MASSATGE AMB PEDRES CALENTES</a>
                     <p>MASSATGE AMB PINDES FLORALS</p>
                     <p>RITUAL MAGNÈTIC</p>
                     <p>MASSATGE AYURVÈDIC</p>
