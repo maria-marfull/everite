@@ -90,6 +90,7 @@ body {
     background-position: 0 0;
     overflow: hidden;
     padding: 0px;
+    position: relative;
     /* background-image: url('./images/benestar.jpg'); */
 }
 
@@ -153,5 +154,20 @@ a {
     font-family: century gothic;
     text-align: justify;
     
+}
+
+.text-box {
+    width: 700px; 
+    text-align: left; 
+    background-color: transparent; 
+    background: rgb(1, 1, 1);
+    background: rgba(150, 150, 150, 0.7); 
+    color: white;
+    text-align: left;
+    font-family:century gothic;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 

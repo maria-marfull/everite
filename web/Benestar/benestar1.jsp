@@ -1,6 +1,12 @@
 
 <div id="animacioBenestar" class="animacio">
 
+    <div class="text-box">
+        <span >
+        Terapia relaxant amb pedres volcàniques, elimina tensions activant tota la movilitat
+        interna mitjançant calor.
+        </span>
+    </div>
     
 <script type="text/javascript">
     clearInterval(interval);
@@ -9,6 +15,7 @@
     var numBenestarImages = 3;
     var cont = 0;
     var swit = cont;
+    
 
     for (var i = 0; i < numBenestarImages; i++)
     {
@@ -17,12 +24,12 @@
 
         console.log(benestar_images[i]);
     }
+    
+   
 
     $(document).ready( function()
         {
-            </script>
-            <p>Terapia relaxant amb pedres volcàniques, elimina tensions activant tota la movilitat interna mitjançant calor.</p>
-            <script>
+            
             interval = setInterval("change_image()", 7000);     
             change_image();
         }
