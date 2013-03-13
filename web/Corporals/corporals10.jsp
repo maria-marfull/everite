@@ -1,8 +1,7 @@
 <div id="animacioCorporals" class="animacio"> 
              
 <div class="text-box">
-    <span>
-    Relaxació muscular, movilització i contractures.
+    <span>Desestressant, relaxació muscular.Relaxació muscular, movilització i contractures.
     </span>
 </div>
        

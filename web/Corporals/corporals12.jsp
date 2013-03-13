@@ -2,7 +2,7 @@
              
 <div class="text-box">
     <span>
-    Relaxació muscular, movilització i contractures.
+    Energitzant amb olis essencials personalitzats.
     </span>
 </div>
        

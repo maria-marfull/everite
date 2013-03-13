@@ -56,20 +56,20 @@
             </div>
             <div id="collapseThree" class="accordion-body collapse">
                 <div class="accordion-inner">
-                    <p> QUIROMASSATGE </p>
-                    <p> DRENATGE LINFÀNIC </p>
-                    <p> ANTICEL·LIÍTIC </p>
-                    <p> REAFIRMANTS </p>
-                    <p> POST-PART </p>
-                    <p> ALGUES / FANG </p>
-                    <p> TRADICIONAL TAILANDÈS </p>
-                    <p> SACROCRANEAL </p>
-                    <p> PEELING AMB HIDRATACIÓ </p>
-                    <p> MASSATGE ON SITE </p>
-                    <p> QUIRO - GLOF </p>
-                    <p> MASSATGE EVÉRITE </p>
-                    <p> RELAX I LLUM </p>
-                    <p> LIPOESCLITURA BIOLÓGICA </p>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals1.jsp"> QUIROMASSATGE </a>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals2.jsp"> DRENATGE LINFÀNIC </a>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals3.jsp"> ANTICEL·LIÍTIC </a>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals4.jsp"> REAFIRMANTS </a>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals5.jsp"> POST-PART </a>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals6.jsp"> ALGUES / FANG </a>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals7.jsp"> TRADICIONAL TAILANDÈS </a>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals8.jsp"> SACROCRANEAL </a>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals9.jsp"> PEELING AMB HIDRATACIÓ </a>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals10.jsp"> MASSATGE ON SITE </a>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals11.jsp"> QUIRO - GLOF </a>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals12.jsp"> MASSATGE EVÉRITE </a>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals13.jsp"> RELAX I LLUM </a>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals14.jsp"> LIPOESCLITURA BIOLÓGICA </a>
                 </div>
             </div>
 

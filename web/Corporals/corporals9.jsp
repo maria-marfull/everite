@@ -2,7 +2,7 @@
              
 <div class="text-box">
     <span>
-    Relaxació muscular, movilització i contractures.
+    Afinament de la pell apotant lluminositat.
     </span>
 </div>
        

@@ -2,7 +2,7 @@
              
 <div class="text-box">
     <span>
-    Relaxació muscular, movilització i contractures.
+    Desintoxicació de l?organisme.
     </span>
 </div>
        

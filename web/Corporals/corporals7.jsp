@@ -2,7 +2,7 @@
              
 <div class="text-box">
     <span>
-    Relaxació muscular, movilització i contractures.
+    Estiraments assistits, elasticitat muscular i tendinosa.
     </span>
 </div>
        

@@ -2,7 +2,7 @@
              
 <div class="text-box">
     <span>
-    Relaxació muscular, movilització i contractures.
+    Recuperació de la tonicitat muscular.
     </span>
 </div>
        

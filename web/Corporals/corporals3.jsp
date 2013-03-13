@@ -2,7 +2,7 @@
              
 <div class="text-box">
     <span>
-    Relaxació muscular, movilització i contractures.
+    Massatge amb aplicació de productes i aparells.
     </span>
 </div>
        

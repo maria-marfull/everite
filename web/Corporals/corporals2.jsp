@@ -2,7 +2,7 @@
              
 <div class="text-box">
     <span>
-    Relaxació muscular, movilització i contractures.
+    Retenció de liquids, circulatori i liquids.
     </span>
 </div>
        

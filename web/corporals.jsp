@@ -3,7 +3,8 @@
        
 <script type="text/javascript">
     //var interval;
-
+    clearInterval(interval);
+    clearInterval(interval_move);
 
     var corporals_images = new Array();
     var numCorporalsImages = 2;
@@ -36,8 +37,27 @@
             swit = cont;
             cont = cont + 1;
 
-            if (cont > 2) cont = 0;
+            if (cont > 1) cont = 0;
+            
+            if (cont == 0) {
+                x = 0;
+                y = -100;
+                $("div#animacioCorporals").css("backgroundPosition", 0 + 'px' + ' ' + -100 + 'px');
+                move_image();
+            }
+            else {
+                clearInterval(interval_move);
+            }
         });
+    }
+    function move_image() {
+
+            interval_move = window.setInterval(function() {
+                $("div#animacioCorporals").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+                y++;
+                x--;
+            }, 200);
+
     }
 
 </script>  
