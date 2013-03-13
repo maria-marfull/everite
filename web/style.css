@@ -147,8 +147,16 @@ p {
 
 a {
     text-align: left;
-    font-family:century gothic;
 }
+
+
+.sub{
+    text-align: justify;
+    font-family: century gothic;
+    color: black;
+    
+}
+
 
 .lletra {
     font-family: century gothic;

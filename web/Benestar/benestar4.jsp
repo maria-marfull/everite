@@ -1,7 +1,6 @@
-
 <div class="text-box">
         <span>
-        Terapia relaxant amb pedres volcàniques, elimina tensions activant tota la movilitat interna mitjançant calor.
+        Equilibra actuant a nivell físic i mental.
         </span>
 </div>
 

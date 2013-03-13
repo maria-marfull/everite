@@ -10,12 +10,14 @@
     <head>
        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="text/html; charset=[b]iso-8859-1[/b]" http-equiv="Content-Type" />
         <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
         <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
         <link href="./bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
         <link href="./style.css" rel="stylesheet">
-        <link type="image/x-icon" href="./images/Logotip.gif" rel="shortcut icon"/>   
+        <link type="image/x-icon" href="./images/Logotip.gif" rel="shortcut icon"/>
+        
         
         <title>Everite</title>
     </head>

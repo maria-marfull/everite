@@ -1,7 +1,7 @@
-
 <div class="text-box">
         <span>
-        Terapia relaxant amb pedres volcàniques, elimina tensions activant tota la movilitat interna mitjançant calor.
+        Magnetoterapia mineral, amb pols de diamant i ferro micronitzat. <br>
+        Equilibra la pell de tot el cos.
         </span>
 </div>
 

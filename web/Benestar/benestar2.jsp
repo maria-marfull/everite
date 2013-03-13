@@ -1,7 +1,7 @@
-
 <div class="text-box">
         <span>
-        Terapia relaxant amb pedres volcàniques, elimina tensions activant tota la movilitat interna mitjançant calor.
+        Les pindes és un tipus de massatge realitzat amb un saquets de teixit natural farcides amb plantes naturals,
+        (aportant relaxació de cos i ment).
         </span>
 </div>
 

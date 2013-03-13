@@ -7,7 +7,10 @@
     var numBenestarImages = 3;
     var cont = 0;
     var swit = cont;
-
+    var interval_move;
+    var x = 0;
+    var y = 0;
+    
     for (var i = 0; i < numBenestarImages; i++)
     {
         benestar_images[i] = new Image();
@@ -32,8 +35,25 @@
             cont = cont + 1;
 
             if (cont > 2) cont = 0;
+            
+            if (cont == 1) {
+                $("div#animacioBenestar").css("backgroundPosition", 0 + 'px' + ' ' + -200 + 'px');
+                move_image();
+            }
+            else {
+                clearInterval(interval_move);
+            }
         });
         //$("div#animacioBenestar").css("background-image", "url('" + benestar_images[cont].src + "')" );
+    }
+
+function move_image() {
+        
+        interval_move = window.setInterval(function() {
+            $("div#animacioBenestar").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+            y++;                    
+        }, 200);
+
     }
 
 </script>  

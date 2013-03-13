@@ -11,11 +11,15 @@
             
             <div id="collapseOne" class="accordion-body collapse">
                 <div class="accordion-inner">
-                    <a class="accordion-toggle link" href="#collapseOne" data-href="./Benestar/benestar1.jsp">MASSATGE AMB PEDRES CALENTES</a>
-                    <p onclick="mostraDiv(2)">MASSATGE AMB PINDES FLORALS</p>
-                    <p>RITUAL MAGNÈTIC</p>
-                    <p>MASSATGE AYURVÈDIC</p>
-                    <p>DIAMOND - EXPERIENCE</p>
+                    <a  class="sub link" href="#collapseOne" data-href="./Benestar/benestar1.jsp">MASSATGE AMB PEDRES CALENTES</a>
+                    <br>
+                    <a class ="sub link" href="#collapseOne" data-href="./Benestar/benestar2.jsp">MASSATGE AMB PINDES FLORALS</a>
+                    <br>
+                    <a class ="sub link" href="#collapseOne" data-href="./Benestar/benestar3.jsp">RITUAL MAGNÈTIC</a>
+                    <br>
+                    <a class ="sub link" href="#collapseOne" data-href="./Benestar/benestar4.jsp">MASSATGE AYURVÈDIC</a>
+                    <br>
+                    <a class="sub link" href="#collapseOne" data-href="./Benestar/benestar5.jsp">DIAMOND - EXPERIENCE</a>
                 </div>
             </div>
             
