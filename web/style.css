@@ -13,7 +13,8 @@
     font-family: century-gotic;
     width: 220px;
 }
-body {
+
+.body {
     font-family: century gothic;
     text-align: left;
 }
@@ -106,10 +107,6 @@ body {
     padding-top: 10px;
 }
 
-body {
-    text-align: center;
-}
-
 .h2 {
     font-family: century-gotic;
     font-size: 10px;
@@ -132,17 +129,12 @@ body {
 }
 
 .submenu {
+    text-align: left; 
+    padding-left: 15px;
     font-style: century-gotic; 
     font-size:16px;
     color: black;
     font-weight: normal;
-    text-align: left; 
-}
-
-p {
-    text-align: left;
-    padding-left: 15px;
-    font-family:century gothic;
 }
 
 a {
@@ -151,10 +143,10 @@ a {
 
 
 .sub{
-    text-align: justify;
+    text-align: left;
     font-family: century gothic;
     color: black;
-    
+    margin: 0px;
 }
 
 

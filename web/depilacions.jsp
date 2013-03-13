@@ -19,25 +19,18 @@
 
     $(document).ready( function()
         {
-            interval = setInterval("change_image()", 7000);     
-            change_image();
+            $('div#animacioDepilacions').fadeOut(1000, function() {
+                $(this).css("background-image", "url('" + depilacions_images[cont].src + "')" )
+
+                $(this).fadeIn(3000);
+
+                swit = cont;
+                cont = cont + 1;
+
+                if (cont > 1) cont = 0;
+            });     
 
         }
     );
-
-    function change_image() {
-        
-        $('div#animacioDepilacions').fadeOut(1000, function() {
-            $(this).css("background-image", "url('" + depilacions_images[cont].src + "')" )
-            
-            $(this).fadeIn(3000);
-            
-            swit = cont;
-            cont = cont + 1;
-
-            if (cont > 1) cont = 0;
-        });
-
-    }
 
 </script>  
