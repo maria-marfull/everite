@@ -104,6 +104,7 @@
                         );
 
                         function change_image() {
+                            clearInterval(interval_move);
 
                             $('div#animacio').fadeOut(700, function() {
                                 $(this).css("background-image", "url('" + home_images[cont].src + "')" )

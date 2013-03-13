@@ -33,7 +33,7 @@
         }
     );
 
-    function change_image() {   
+        function change_image() {   
          $('div#animacioBenestar').fadeOut(1000, function() {
             $(this).css("background-image", "url('" + benestar_images[cont].src + "')" )
             $(this).fadeIn(3000);
@@ -44,7 +44,9 @@
             if (cont > 2) cont = 0;
             
             if (cont == 1) {
-                $("div#animacioBenestar").css("backgroundPosition", 0 + 'px' + ' ' + -200 + 'px');
+                x = 0;
+                y = 0;
+                $("div#animacioBenestar").css("backgroundPosition", 0 + 'px' + ' ' + 0 + 'px');
                 move_image();
             }
             else {
@@ -58,7 +60,7 @@ function move_image() {
         
         interval_move = window.setInterval(function() {
             $("div#animacioBenestar").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
-            y++;                    
+            y--;                    
         }, 200);
 
     }
