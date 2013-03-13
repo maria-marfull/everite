@@ -1,3 +1,12 @@
+<div class="text-box">
+        <span>
+            Nodrir i vitalitzar.      
+        </span>
+</div>
+
+
+
+
 <div id="animacioFacials" class="animacio">
                        
        

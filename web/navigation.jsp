@@ -30,14 +30,21 @@
             </div>
             <div id="collapseTwo" class="accordion-body collapse">
                 <div class="accordion-inner">
-                    <p> HIDRATANTS </p>
-                    <p> REAFIRMANTS </p>
-                    <p> DESPIGMENTANTS </p>
-                    <p> ANTIENVELLIMENT </p>
-                    <p> OXIGENANTS </p>
-                    <p> CATIO-CLEAN </p>
-                    <p> CARBOXI - EXPRESS </p>
-                    <p> HIDRA-LIFT </p>
+                    <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials1.jsp"> HIDRATANTS </a>
+                    <br>
+                    <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials2.jsp"> REAFIRMANTS </a>
+                    <br>
+                    <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials3.jsp"> DESPIGMENTANTS </a>
+                    <br>
+                    <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials4.jsp"> ANTIENVELLIMENT </a>
+                    <br>
+                    <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials5.jsp"> OXIGENANTS </a>
+                    <br>
+                    <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials6.jsp"> CATIO-CLEAN </a>
+                    <br>
+                    <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials7.jsp"> CARBOXI - EXPRESS </a>
+                    <br>
+                    <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials8.jsp"> HIDRA-LIFT </a>
                 </div>
             </div>
             

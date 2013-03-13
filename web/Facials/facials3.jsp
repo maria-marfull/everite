@@ -1,3 +1,10 @@
+<div class="text-box">
+        <span>
+            Peelings, afinar la pell, borrar taques i expressions facials.        
+        </span>
+</div>
+
+
 <div id="animacioFacials" class="animacio">
                        
        

@@ -1,3 +1,9 @@
+<div class="text-box">
+        <span>
+            Estimulació muscular, remodela i atenua les arrugues.    
+        </span>
+</div>
+
 <div id="animacioFacials" class="animacio">
                        
        

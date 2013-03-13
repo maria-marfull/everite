@@ -6,7 +6,7 @@
 
 
     var corporals_images = new Array();
-    var numCorporalsImages = 3;
+    var numCorporalsImages = 2;
     var cont = 0;
     var swit = cont;
 

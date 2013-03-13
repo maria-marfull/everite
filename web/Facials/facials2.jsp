@@ -1,3 +1,12 @@
+<div class="text-box">
+        <span>
+            Elasticitat i fermesa al teixit.     
+        </span>
+</div>
+
+
+
+
 <div id="animacioFacials" class="animacio">
                        
        

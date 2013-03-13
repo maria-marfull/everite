@@ -1,3 +1,9 @@
+<div class="text-box">
+        <span>
+            Regenera, revitalitza i afina la pell.     
+        </span>
+</div>
+
 <div id="animacioFacials" class="animacio">
                        
        

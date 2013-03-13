@@ -1,3 +1,10 @@
+<div class="text-box">
+        <span>
+            Purificació i lluminositat.       
+        </span>
+</div>
+
+
 <div id="animacioFacials" class="animacio">
                        
        

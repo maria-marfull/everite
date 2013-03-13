@@ -1,3 +1,10 @@
+<div class="text-box">
+        <span>
+            Aportació d'aigua a la pell i prevenció d'arrugues.        
+        </span>
+</div>
+
+
 <div id="animacioFacials" class="animacio">
                        
        

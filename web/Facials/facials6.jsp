@@ -1,3 +1,9 @@
+<div class="text-box">
+        <span>
+            Higiene profunda amb hidratació.
+        </span>
+</div>
+
 <div id="animacioFacials" class="animacio">
                        
        
