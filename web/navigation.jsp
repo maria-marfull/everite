@@ -19,26 +19,6 @@
                 </div>
             </div>
             
-            <div hidden="true" id="prova" class="continguts">
-                <p> Les pindes es un tipus de massatge realizat amb uns saquets de teixit natural farcides amb plantes naturals, 
-                    (aportant relaxació de cos i ment).
-                </p>
-            </div>
-            
-            <script language="JavaScript">
-
-                function mostraDiv(id) {
-                    if (document.getElementById){ //se obtiene el id
-                        var el = document.getElementById(id); //se define la variable "el" igual a nuestro div
-                        prova.style.display = (prova.style.display == 'none') ? 'block' : 'none';
-                    }
-                }
-                window.onload = function(){/*hace que se cargue la función lo que predetermina que div estará oculto hasta llamar a la función nuevamente*/
-                    mostraDiv('prova');/* "contenido_a_mostrar" es el nombre que le dimos al DIV */
-                }
-            </script>
-            
-            
             <div class="accordion-heading">
                 <a class="accordion-toggle link" data-href="./facials.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
                         FACIALS
