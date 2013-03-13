@@ -8,7 +8,8 @@
 
 <script type="text/javascript">
     clearInterval(interval);
-
+    clearInterval(interval_move);
+    
     var benestar_images = new Array();
     var numBenestarImages = 3;
     var cont = 0;
