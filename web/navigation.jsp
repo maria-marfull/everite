@@ -12,12 +12,31 @@
             <div id="collapseOne" class="accordion-body collapse">
                 <div class="accordion-inner">
                     <a class="accordion-toggle link" href="#collapseOne" data-href="./Benestar/benestar1.jsp">MASSATGE AMB PEDRES CALENTES</a>
-                    <p>MASSATGE AMB PINDES FLORALS</p>
+                    <p onclick="mostraDiv(2)">MASSATGE AMB PINDES FLORALS</p>
                     <p>RITUAL MAGNÈTIC</p>
                     <p>MASSATGE AYURVÈDIC</p>
                     <p>DIAMOND - EXPERIENCE</p>
                 </div>
             </div>
+            
+            <div hidden="true" id="prova" class="continguts">
+                <p> Les pindes es un tipus de massatge realizat amb uns saquets de teixit natural farcides amb plantes naturals, 
+                    (aportant relaxació de cos i ment).
+                </p>
+            </div>
+            
+            <script language="JavaScript">
+
+                function mostraDiv(id) {
+                    if (document.getElementById){ //se obtiene el id
+                        var el = document.getElementById(id); //se define la variable "el" igual a nuestro div
+                        prova.style.display = (prova.style.display == 'none') ? 'block' : 'none';
+                    }
+                }
+                window.onload = function(){/*hace que se cargue la función lo que predetermina que div estará oculto hasta llamar a la función nuevamente*/
+                    mostraDiv('prova');/* "contenido_a_mostrar" es el nombre que le dimos al DIV */
+                }
+            </script>
             
             
             <div class="accordion-heading">
