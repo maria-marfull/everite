@@ -1,13 +1,15 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
-<div id="animacioCorporals" class="animacio"> 
-             
 <div class="text-box">
     <span>
     Massatge amb aplicació de productes i aparells.
     </span>
 </div>
        
+
+<div id="animacioCorporals" class="animacio"> 
+             
+
 <script type="text/javascript">
     //var interval;
     clearInterval(interval);

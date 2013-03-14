@@ -1,12 +1,14 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
-<div id="animacioCorporals" class="animacio"> 
-             
 <div class="text-box">
     <span>Desestressant, relaxació muscular.Relaxació muscular, movilització i contractures.
     </span>
 </div>
        
+
+<div id="animacioCorporals" class="animacio"> 
+             
+
 <script type="text/javascript">
     //var interval;
     clearInterval(interval);
