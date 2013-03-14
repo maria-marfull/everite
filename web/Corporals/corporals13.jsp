@@ -1,8 +1,10 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div id="animacioCorporals" class="animacio"> 
              
 <div class="text-box">
     <span>
-    ExfoliaciÛ corporal amb cavater‡pia.
+    Exfoliaci√≥ corporal amb cavater√†pia.
     </span>
 </div>
        

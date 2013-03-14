@@ -1,3 +1,5 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
         <span>
         Magnetoterapia mineral, amb pols de diamant i ferro micronitzat. <br>

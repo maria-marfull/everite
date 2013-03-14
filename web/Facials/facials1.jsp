@@ -1,6 +1,8 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
         <span>
-            Aportaci�d'aigua�a�la�pell�i�prevenci�d'arrugues.        
+            Aportació d'aigua a la pell i prevenció d'arrugues.        
         </span>
 </div>
 

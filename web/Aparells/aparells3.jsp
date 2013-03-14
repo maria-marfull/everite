@@ -1,6 +1,8 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
     <span>
-    Tractament tèrmic d?infrarrojos més estimulació muscular.
+    TractamentÂ tÃ¨rmicÂ d?infrarrojosÂ mÃ©sÂ estimulaciÃ³Â muscular.
     </span>
 </div>
 

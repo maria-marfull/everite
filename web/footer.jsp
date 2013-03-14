@@ -1,6 +1,7 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!-- Footer -->
 <div class="row-fluid">
     <div class="span12">
-        <p id="footer">2010 EVÉRITE centre d'estètica i perruqueria S.L. Tots els drets reservats.</p>
+        <p id="footer">2010 EVÃ‰RITE centre d'estÃ¨tica i perruqueria S.L. Tots els drets reservats.</p>
     </div>
 </div>

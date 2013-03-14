@@ -1,3 +1,5 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
         <span>
         Lifting multisensorial, tractament global anti-edat.

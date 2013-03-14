@@ -1,6 +1,8 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
         <span>
-            Nodrir i vitalitzar.      
+            NodrirÂ iÂ vitalitzar.      
         </span>
 </div>
 

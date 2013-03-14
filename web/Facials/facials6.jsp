@@ -1,6 +1,8 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
         <span>
-            Higiene profunda amb hidratació.
+            HigieneÂ profundaÂ ambÂ hidrataciÃ³.
         </span>
 </div>
 

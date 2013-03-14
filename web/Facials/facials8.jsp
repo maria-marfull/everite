@@ -1,6 +1,8 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
         <span>
-            Estimulaci�muscular,�remodela�i�atenua�les�arrugues.    
+            Estimulació muscular, remodela i atenua les arrugues.    
         </span>
 </div>
 

@@ -1,6 +1,8 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
     <span>
-    Redueix, moldeja i reafirma.
+    Redueix,Â moldejaÂ iÂ reafirma.
     </span>
 </div>
 

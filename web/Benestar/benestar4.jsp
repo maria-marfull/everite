@@ -1,6 +1,8 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
         <span>
-        Equilibra actuant a nivell físic i mental.
+        Equilibra actuant a nivell fÃ­sic i mental.
         </span>
 </div>
 

@@ -1,6 +1,8 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
         <span>
-            Per a resultats duraders.
+            PerÂ aÂ resultatsÂ duraders.
         </span>
 </div>
 

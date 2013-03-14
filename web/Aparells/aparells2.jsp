@@ -1,6 +1,8 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
     <span>
-    Endomassatge i cavitació ultrasònica
+    EndomassatgeÂ iÂ cavitaciÃ³Â ultrasÃ²nica
     </span>
 </div>
 

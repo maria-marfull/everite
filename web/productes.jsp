@@ -1,4 +1,4 @@
-
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
         <!--Body content-->                
 
             <!-- description table-->
@@ -6,45 +6,45 @@
             <table>
                 <tr style="background-color: #CCCCCC">
 
-                    <td style="text-align: left; font-style: century-gotic; color: white; font-size: 15px; pageEncoding:'UTF-8'">
-                    A Evérite assessorem als nostres clients sobre els productes més adequats
-                    per a cada cas amb una selecció de les millors marques del mercat.
+                    <td class="text-box">
+                    A EvÃ©rite assessorem als nostres clients sobre els productes mÃ©s adequats
+                    per a cada cas amb una selecciÃ³ de les millors marques del mercat.
                     </td>
 
                 </tr>
 
             </table>
 
+            <br>
             <!-- Logo's table-->
-            <table>
-                <tr>
-                    <td>
-                        <image src="./images/Products/NaturaBisse.gif" /> 
+            <table >
+                <tr >
+                    <td align ="center">
+                        <image  src="./images/Products/NaturaBisse.gif" width="250" height="250" /> 
                     </td>
-                    <td>
-                        <image src="./images/Products/granc.png" />
+                    <td align ="center" >
+                        <image  src="./images/Products/granc.png" width="100" height="100" />
 
                     </td>
-                    <td>
-                        <image src="./images/Products/loreal_logo.jpg" />
+                    <td align ="center" >
+                        <image src="./images/Products/loreal_logo.jpg" width="250" height="250" />
                     </td>
                 </tr>
 
+                <br>
+                
                 <tr>
-                    <td>
-                        <image src="./images/Products/alain.png" /> 
+                    <td align ="center" >
+                        <image src="./images/Products/alain.png" width="150" height="150" /> 
                     </td>
-                    <td>
-                        <image src="./images/Products/guinot.jpg" />
+                    <td align ="center" >
+                        <image src="./images/Products/guinot.jpg" width="200" height="200" />
 
                     </td>
-                    <td>
-                        <image src="./images/Products/MastersColors.jpg" />
+                    <td align ="center" >
+                        <image src="./images/Products/MastersColors.jpg" width="100" height="100" />
                     </td>
                 </tr>
             </table>
 
-        </div>
-
-</div>
 

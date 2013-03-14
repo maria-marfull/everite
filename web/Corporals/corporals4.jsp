@@ -1,8 +1,10 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div id="animacioCorporals" class="animacio"> 
              
 <div class="text-box">
     <span>
-    Estimulació muscular i del teixit.
+    EstimulaciÃ³ muscular i del teixit.
     </span>
 </div>
        

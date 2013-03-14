@@ -1,6 +1,8 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
         <span>
-            Peelings, afinar la pell, borrar taques i expressions facials.        
+            Peelings,Â afinarÂ laÂ pell,Â borrarÂ taquesÂ iÂ expressionsÂ facials.        
         </span>
 </div>
 

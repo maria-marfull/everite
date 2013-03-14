@@ -1,6 +1,8 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
         <span>
-            Regenera, revitalitza i afina la pell.     
+            Regenera,Â revitalitzaÂ iÂ afinaÂ laÂ pell.     
         </span>
 </div>
 

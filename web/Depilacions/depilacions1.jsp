@@ -1,6 +1,8 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
         <span>
-            A temperatura corporal d'un sol ús.
+            AÂ temperaturaÂ corporalÂ d'unÂ solÂ Ãºs.
         </span>
 </div>
 

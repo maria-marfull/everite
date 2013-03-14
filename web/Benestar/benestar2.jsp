@@ -1,7 +1,9 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
         <span>
-        Les pindes és un tipus de massatge realitzat amb un saquets de teixit natural farcides amb plantes naturals,
-        (aportant relaxació de cos i ment).
+        Les pindes Ã©s un tipus de massatge realitzat amb un saquets de teixit natural farcides amb plantes naturals,
+        (aportant relaxaciÃ³ de cos i ment).
         </span>
 </div>
 

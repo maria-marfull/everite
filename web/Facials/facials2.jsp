@@ -1,6 +1,8 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
         <span>
-            Elasticitat i fermesa al teixit.     
+            ElasticitatÂ iÂ fermesaÂ alÂ teixit.     
         </span>
 </div>
 

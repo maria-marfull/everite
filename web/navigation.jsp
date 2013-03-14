@@ -1,3 +1,5 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="menu">
 
     <div class="accordion" id="accordion2">
@@ -15,9 +17,9 @@
                     <br>
                     <a class ="sub link" href="#collapseOne" data-href="./Benestar/benestar2.jsp">MASSATGE AMB PINDES FLORALS</a>
                     <br>
-                    <a class ="sub link" href="#collapseOne" data-href="./Benestar/benestar3.jsp">RITUAL MAGN»TIC</a>
+                    <a class ="sub link" href="#collapseOne" data-href="./Benestar/benestar3.jsp">RITUAL MAGN√àTIC</a>
                     <br>
-                    <a class ="sub link" href="#collapseOne" data-href="./Benestar/benestar4.jsp">MASSATGE AYURV»DIC</a>
+                    <a class ="sub link" href="#collapseOne" data-href="./Benestar/benestar4.jsp">MASSATGE AYURV√àDIC</a>
                     <br>
                     <a class="sub link" href="#collapseOne" data-href="./Benestar/benestar5.jsp">DIAMOND - EXPERIENCE</a>
                 </div>
@@ -57,19 +59,32 @@
             <div id="collapseThree" class="accordion-body collapse">
                 <div class="accordion-inner">
                     <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals1.jsp"> QUIROMASSATGE </a>
-                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals2.jsp"> DRENATGE LINF¿NIC </a>
-                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals3.jsp"> ANTICEL∑LIÕTIC </a>
+                    <br>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals2.jsp"> DRENATGE LINF√ÄNIC </a>
+                    <br>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals3.jsp"> ANTICEL¬∑LI√çTIC </a>
+                    <br>
                     <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals4.jsp"> REAFIRMANTS </a>
+                    <br>
                     <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals5.jsp"> POST-PART </a>
+                    <br>
                     <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals6.jsp"> ALGUES / FANG </a>
-                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals7.jsp"> TRADICIONAL TAILAND»S </a>
+                    <br>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals7.jsp"> TRADICIONAL TAILAND√àS </a>
+                    <br>
                     <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals8.jsp"> SACROCRANEAL </a>
-                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals9.jsp"> PEELING AMB HIDRATACI” </a>
+                    <br>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals9.jsp"> PEELING AMB HIDRATACI√ì </a>
+                    <br>
                     <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals10.jsp"> MASSATGE ON SITE </a>
+                    <br>
                     <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals11.jsp"> QUIRO - GLOF </a>
-                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals12.jsp"> MASSATGE EV…RITE </a>
+                    <br>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals12.jsp"> MASSATGE EV√âRITE </a>
+                    <br>
                     <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals13.jsp"> RELAX I LLUM </a>
-                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals14.jsp"> LIPOESCLITURA BIOL”GICA </a>
+                    <br>
+                    <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals14.jsp"> LIPOESCLITURA BIOL√ìGICA </a>
                 </div>
             </div>
 
@@ -80,8 +95,8 @@
             </div>
             <div id="collapseFour" class="accordion-body collapse">
                 <div class="accordion-inner">
-                    <a class ="sub link" href="#collapseFour" data-href="./Depilacions/depilacions1.jsp"> CERA T»BIA / CALENTA </a>
-                    <a class ="sub link" href="#collapseFour" data-href="./Depilacions/depilacions2.jsp"> L¿SER </a>  
+                    <a class ="sub link" href="#collapseFour" data-href="./Depilacions/depilacions1.jsp"> CERA T√àBIA / CALENTA </a>
+                    <a class ="sub link" href="#collapseFour" data-href="./Depilacions/depilacions2.jsp"> L√ÄSER </a>  
                 </div>
             </div>
 
@@ -96,9 +111,9 @@
                     <br>
                     <a class ="sub link" href="#collapseFour" data-href="./Estil/estil2.jsp"> PEDICURA / MANICURA </a>
                     <br>
-                    <a class ="sub link" href="#collapseFour" data-href="./Estil/estil3.jsp"> MICROPIGMENTACI” </a>
+                    <a class ="sub link" href="#collapseFour" data-href="./Estil/estil3.jsp"> MICROPIGMENTACI√ì </a>
                     <br>
-                    <a class ="sub link" href="#collapseFour" data-href="./Estil/estil4.jsp"> MAQUILLATGE NIT, DIA I N⁄VIES </a>
+                    <a class ="sub link" href="#collapseFour" data-href="./Estil/estil4.jsp"> MAQUILLATGE NIT, DIA I N√öVIES </a>
                     <br>
                     <a class ="sub link" href="#collapseFour" data-href="./Estil/estil15.jsp"> CURS D'AUTOMAQUILLATGE </a>
                 </div>
@@ -144,7 +159,7 @@
                     <br>
                     <a class ="sub link" href="#collapseEight" data-href="./Aparells/aparells3.jsp"> TEI SISTEM </a>
                     <br>
-                    <a class ="sub link" href="#collapseEight" data-href="./Aparells/aparells4.jsp"> PRESOTER¿PIA </a>
+                    <a class ="sub link" href="#collapseEight" data-href="./Aparells/aparells4.jsp"> PRESOTER√ÄPIA </a>
                 </div>
             </div>
 

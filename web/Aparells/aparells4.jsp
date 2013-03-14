@@ -1,6 +1,8 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <div class="text-box">
     <span>
-    Estimulació limfàtica i sanguínia.
+    EstimulaciÃ³Â limfÃ ticaÂ iÂ sanguÃ­nia.
     </span>
 </div>
 
