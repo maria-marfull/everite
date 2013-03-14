@@ -1,8 +1,14 @@
-
+<div class="text-box">
+    <span>
+    Redueix, moldeja i reafirma.
+    </span>
+</div>
 
 <div id="animacioAparells" class="animacio"> 
 
-
+<div align="right">
+   <image src="./images/aparells/ap1.png" width="300" height="300" />  
+</div>
        
 <script type="text/javascript">
     clearInterval(interval);

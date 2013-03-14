@@ -1,8 +1,10 @@
-
+<div class="text-box">
+    <span>
+    Estimulació limfàtica i sanguínia.
+    </span>
+</div>
 
 <div id="animacioAparells" class="animacio"> 
-
-
        
 <script type="text/javascript">
     clearInterval(interval);

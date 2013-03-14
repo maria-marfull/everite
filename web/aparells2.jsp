@@ -1,9 +1,12 @@
-
+<div class="text-box">
+    <span>
+    Endomassatge i cavitació ultrasònica
+    </span>
+</div>
 
 <div id="animacioAparells" class="animacio"> 
 
 
-       
 <script type="text/javascript">
     clearInterval(interval);
 

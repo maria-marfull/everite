@@ -1,7 +1,10 @@
-
+<div class="text-box">
+    <span>
+    Tractament tèrmic d?infrarrojos més estimulació muscular.
+    </span>
+</div>
 
 <div id="animacioAparells" class="animacio"> 
-
 
        
 <script type="text/javascript">

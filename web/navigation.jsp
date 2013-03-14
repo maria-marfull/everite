@@ -132,10 +132,10 @@
             </div>
             <div id="collapseEight" class="accordion-body collapse">
                 <div class="accordion-inner">
-                    <p> VELASMOOTH </p>
-                    <p> DERMAJET   </p>
-                    <p> TEI SISTEM </p>
-                    <p> PRESOTERÀPIA </p>
+                    <a class ="sub link" href="#collapseEight" data-href="./aparells1.jsp"> VELASMOOTH </a>
+                    <a class ="sub link" href="#collapseEight" data-href="./aparells2.jsp"> DERMAJET   </a>
+                    <a class ="sub link" href="#collapseEight" data-href="./aparells3.jsp"> TEI SISTEM </a>
+                    <a class ="sub link" href="#collapseEight" data-href="./aparells4.jsp"> PRESOTERÀPIA </a>
                 </div>
             </div>
 
