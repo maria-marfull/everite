@@ -1,86 +1,57 @@
 
-<div id="estil" class="animacio">
-
+<div id="animacioEstil" class="animacio">
+    
 <script type="text/javascript">
-    var interval;
-    var interval_move;
+    
+    var estil_images = new Array();
+    var numEstilImages = 1;
+    var cont = 0;
+    var swit = cont;
+    
+    
+    clearInterval(interval);
+    clearInterval(interval_move);
+    
+    for (var i = 0; i < numEstilImages; i++)
+    {
+        estil_images[i] = new Image();
+        estil_images[i].src= "./images/estil/"+ (i+1) +".jpg";
 
-    var x = 0;
-    var y = 0;
-
-    $(document).ready( function()
-        {
-            clearInterval(interval);
-            interval = setInterval("change_image()", 7000);     
-            change_image();
-        }
-    );
-
-    function change_image() {
-
-        $('div#estil').fadeOut(700, function() {
-            $(this).css("background-image", "url('./images/estil/1.jpg')" )
-            $(this).fadeIn("slow");            
-        });
-
-        console.log("1");
-
-        for (i = 0; i < 50; ++i) {
-            $("div#estil").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
-            y--;
-        }
-        //$("div#animacio").css("background-image", "url('" + home_images[cont].src + "')" );
+        console.log(estil_images[i]);
     }
     
-    function move_image() {
-        clearInterval(interval_move);
-
-
-        if (swit == 1) {
-            x = -200;
-            y = 0;
-            $("div#animacio").css("backgroundPosition", -200  + 'px' + ' ' + 0 + 'px');
-
-        }
-        else { 
+    $(document).ready( function()
+        {
             x = 0;
             y = 0;
-            $("div#animacio").css("backgroundPosition", 0 + 'px' + ' ' + 0 + 'px');
+            
+            $('div#animacioEstil').fadeOut(1000, function() {
+                $(this).css("background-image", "url('" + estil_images[cont].src + "')" )
+
+                $(this).fadeIn(3000);
+
+                swit = cont;
+                cont = cont + 1;
+
+                if (cont > 1) cont = 0;
+                move_image();
+                setTimeout("clearInterval("+ interval_move+ ")",7000);
+    
+            });   
         }
+    );
+    
+    function move_image() {
+        
         interval_move = window.setInterval(function() {
-
-            switch(swit) {
-                case 0:
-                    $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
-                    y--;
-                    break;
-
-                case 1:
-                    $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
-                    x++;
-                    break;
-
-                case 2:
-                    $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
-                    x--;
-                    break;
-
-                case 3:
-                    $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
-                    break;
-
-                case 4:
-                    $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
-                    x--;
-                    break;
-
-                case 5:
-                    $("div#animacio").css("backgroundPosition", x + 'px' + ' ' + y + 'px');
-                    x--;
-                    break;
-            }                    
-        }, 150);
-
+            $(document).ready(function() {
+    
+                $("div#animacioEstil").css(function () {
+                    $(this).hide("scale", {}, 1000);
+                });
+                    
+            }, 150);
+    }
 </script>        
 
-
+</div>
