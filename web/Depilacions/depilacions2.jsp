@@ -1,3 +1,10 @@
+<div class="text-box">
+        <span>
+            Per a resultats duraders.
+        </span>
+</div>
+
+
 <div id="animacioDepilacions" class="animacio">
                        
        

@@ -80,8 +80,8 @@
             </div>
             <div id="collapseFour" class="accordion-body collapse">
                 <div class="accordion-inner">
-                    <p> CERA TÈBIA / CALENTA </p>
-                    <p> LÀSER </p>  
+                    <a class ="sub link" href="#collapseFour" data-href="./Depilacions/depilacions1.jsp"> CERA TÈBIA / CALENTA </a>
+                    <a class ="sub link" href="#collapseFour" data-href="./Depilacions/depilacions2.jsp"> LÀSER </a>  
                 </div>
             </div>
 

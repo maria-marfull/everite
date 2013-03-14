@@ -1,3 +1,10 @@
+<div class="text-box">
+        <span>
+            A temperatura corporal d'un sol ús.
+        </span>
+</div>
+
+
 <div id="animacioDepilacions" class="animacio">
                        
        
