@@ -1,3 +1,9 @@
+<div class="text-box">
+        <span>
+            Equilibrament del cos i de la ment.      
+        </span>
+</div>
+
 <div id="animacioMedicines" class="animacio">
                        
        

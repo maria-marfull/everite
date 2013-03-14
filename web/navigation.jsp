@@ -92,11 +92,15 @@
             </div>
             <div id="collapseFive" class="accordion-body collapse">
                 <div class="accordion-inner">
-                    <p> PERRUQUERIA </p>
-                    <p> PEDICURA / MANICURA </p>
-                    <p> MICROPIGMENTACIÓ </p>
-                    <p> MAQUILLATGE NIT, DIA I NÚVIES </p>
-                    <p> CURS D'AUTOMAQUILLATGE </p>
+                    <a class ="sub link" href="#collapseFour" data-href="./Estil/estil1.jsp"> PERRUQUERIA </a>
+                    <br>
+                    <a class ="sub link" href="#collapseFour" data-href="./Estil/estil2.jsp"> PEDICURA / MANICURA </a>
+                    <br>
+                    <a class ="sub link" href="#collapseFour" data-href="./Estil/estil3.jsp"> MICROPIGMENTACIÓ </a>
+                    <br>
+                    <a class ="sub link" href="#collapseFour" data-href="./Estil/estil4.jsp"> MAQUILLATGE NIT, DIA I NÚVIES </a>
+                    <br>
+                    <a class ="sub link" href="#collapseFour" data-href="./Estil/estil15.jsp"> CURS D'AUTOMAQUILLATGE </a>
                 </div>
             </div>
 
@@ -107,9 +111,11 @@
             </div>
             <div id="collapseSix" class="accordion-body collapse">
                 <div class="accordion-inner">
-                    <p> OSTEOPATIA </p>
-                    <p> FLORS DE BACH </p>
-                    <p> ACUPUNTURA </p>
+                    <a class ="sub link" href="#collapseFour" data-href="./Medecines/medecines1.jsp"> OSTEOPATIA </a>
+                    <br>
+                    <a class ="sub link" href="#collapseFour" data-href="./Medecines/medecines2.jsp"> FLORS DE BACH </a>
+                    <br>
+                    <a class ="sub link" href="#collapseFour" data-href="./Medecines/medecines3.jsp"> ACUPUNTURA </a>
                 </div>
             </div>
 

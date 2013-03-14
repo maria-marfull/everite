@@ -1,3 +1,9 @@
+<div class="text-box">
+        <span>
+            Armonitzen les funcions fisicas, mentals i emocionals. Funció preventiva. Aportació d'aigua a la pell i prevenció d'arrugues.        
+        </span>
+</div>
+
 <div id="animacioMedicines" class="animacio">
                        
        

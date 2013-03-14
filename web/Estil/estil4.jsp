@@ -1,3 +1,10 @@
+<div class="text-box">
+        <span>
+
+s        </span>
+</div>
+
+
 <div id="animacioEstil" class="animacio">
                        
        

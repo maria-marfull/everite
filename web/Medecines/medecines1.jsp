@@ -1,3 +1,9 @@
+<div class="text-box">
+        <span>
+            El cos funciona con una unitat. Restaura les seves funcions, recupera l'harmonia, l'equilibri i oblida't del dolor.      
+        </span>
+</div>
+
 <div id="animacioMedicines" class="animacio">
                        
        
