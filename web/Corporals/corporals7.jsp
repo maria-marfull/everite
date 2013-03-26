@@ -1,13 +1,13 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
+
+<div id="animacioCorporals" class="animacio"> 
+             
 <div class="text-box">
     <span>
     Estiraments assistits, elasticitat muscular i tendinosa.
     </span>
 </div>
-
-<div id="animacioCorporals" class="animacio"> 
-             
 
        
 <script type="text/javascript">
