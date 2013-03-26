@@ -42,7 +42,7 @@ public class mail {
      * @param text
      * @throws MessagingException 
      */
-    public static int sendEmailFromUs(String sourceAddress, String nom, String tel, String subject, String text) throws MessagingException  { 
+    public static int sendEmailFromUs(String sourceAddress, String nom, String tel, String text) throws MessagingException  { 
         Transport t = null;
         text+="\n\n\nDADES DEL CONTACTE:\n\nNom: "+nom+"\nE-mail: "+sourceAddress+ "\nTelf: " + tel;
         nom+=" (from " +sourceAddress+")";

@@ -45,11 +45,11 @@ public class contacte extends HttpServlet {
                request.getSession().setAttribute("cont_mail", "control-group");
             }
             String telefon = request.getParameter("telefon");
-            String subject = request.getParameter("sbj");
-            if(subject.equals("")) subject = "(sense assumpte)";
+            //String subject = request.getParameter("sbj");
+            //if(subject.equals("")) subject = "(sense assumpte)";
             String msg = request.getParameter("msg");
 
-            int error = mail.sendEmailFromUs(email, nom, telefon, subject, msg);
+            int error = mail.sendEmailFromUs(email, nom, telefon, msg);
             
             String feedMsg = "El teu missatge s'ha enviat correctament";
             String pag_sig = "./index.jsp";

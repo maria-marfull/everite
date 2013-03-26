@@ -68,12 +68,6 @@
                         </div>
                     </div>
                     <div class="control-group">
-                        <label class="control-label" for="input01">Assumpte:</label>
-                        <div class="controls">
-                            <input type="text" class="input-xlarge" name="sbj">
-                        </div>
-                    </div>
-                    <div class="control-group">
                         <label class="control-label" for="input01">Missatge:</label>
                         <div class="controls">
                             <textarea style="height:130px;resize: none;" type="text" class="input-xlarge" name="msg"></textarea>
