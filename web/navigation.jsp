@@ -24,7 +24,7 @@
                     
                         <div class="accordion-heading">
 
-                            <a class="accordion-toggle link" data-href="./benestar.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseOneOne">
+                            <a class="accordion-toggle link" data-href="./benestar.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseOneOne">
                                 <h3>BENESTAR</h3>
                             </a>
 
@@ -32,126 +32,126 @@
 
                         <div id="collapseOneOne" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                <a  class="sub link" href="#collapseOneOne" data-href="./Benestar/benestar1.jsp"><h4>MASSATGE AMB PEDRES CALENTES</h4></a>
-                                <a class ="sub link" href="#collapseOneOne" data-href="./Benestar/benestar2.jsp"><h4>MASSATGE AMB PINDES FLORALS</h4></a>
-                                <a class ="sub link" href="#collapseOneOne" data-href="./Benestar/benestar3.jsp"><h4>RITUAL MAGNÈTIC</h4></a>
-                                <a class ="sub link" href="#collapseOneOne" data-href="./Benestar/benestar4.jsp"><h4>MASSATGE AYURVÈDIC</h4></a>
-                                <a class="sub link" href="#collapseOneOne" data-href="./Benestar/benestar5.jsp"><h4>DIAMOND - EXPERIENCE</h4></a>
+                                <a  class="sub link" href="#collapseOneOne" data-href="./Benestar/benestar1.jsp"> <h4>MASSATGE AMB PEDRES CALENTES</h4> </a>
+                                <a class ="sub link" href="#collapseOneOne" data-href="./Benestar/benestar2.jsp"> <h4>MASSATGE AMB PINDES FLORALS</h4> </a>
+                                <a class ="sub link" href="#collapseOneOne" data-href="./Benestar/benestar3.jsp"> <h4>RITUAL MAGNÈTIC</h4> </a>
+                                <a class ="sub link" href="#collapseOneOne" data-href="./Benestar/benestar4.jsp"> <h4>MASSATGE AYURVÈDIC</h4> </a>
+                                <a class="sub link" href="#collapseOneOne" data-href="./Benestar/benestar5.jsp"> <h4>DIAMOND - EXPERIENCE</h4> </a>
                             </div>
                         </div>
 
                         <div class="accordion-heading">
-                            <a class="accordion-toggle link" data-href="./facials.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                            <a class="accordion-toggle link" data-href="./facials.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseTwo">
                                 <h3>FACIALS</h3>
                             </a>
                         </div>
                         <div id="collapseTwo" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials1.jsp"> HIDRATANTS </a>
+                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials1.jsp"> <h4>HIDRATANTS</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials2.jsp"> REAFIRMANTS </a>
+                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials2.jsp"> <h4>REAFIRMANTS</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials3.jsp"> DESPIGMENTANTS </a>
+                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials3.jsp"> <h4>DESPIGMENTANTS</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials4.jsp"> ANTIENVELLIMENT </a>
+                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials4.jsp"> <h4>ANTIENVELLIMENT</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials5.jsp"> OXIGENANTS </a>
+                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials5.jsp"> <h4>OXIGENANTS</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials6.jsp"> CATIO-CLEAN </a>
+                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials6.jsp"> <h4>CATIO-CLEAN</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials7.jsp"> CARBOXI - EXPRESS </a>
+                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials7.jsp"> <h4>CARBOXI - EXPRESS</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials8.jsp"> HIDRA-LIFT </a>
+                                <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials8.jsp"> <h4>HIDRA-LIFT</h4> </a>
                             </div>
                         </div>
                     
                         
                         <div class="accordion-heading">
-                            <a class="accordion-toggle link" data-href="./corporals.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                            <a class="accordion-toggle link" data-href="./corporals.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree">
                                 <h3>CORPORALS</h3>
                             </a>
                         </div>
                         <div id="collapseThree" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals1.jsp"> QUIROMASSATGE </a>
+                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals1.jsp"> <h4>QUIROMASSATGE</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals2.jsp"> DRENATGE LINFÀNIC </a>
+                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals2.jsp"> <h4>DRENATGE LINFÀNIC</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals3.jsp"> ANTICEL·LIÍTIC </a>
+                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals3.jsp"> <h4>ANTICEL·LIÍTIC</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals4.jsp"> REAFIRMANTS </a>
+                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals4.jsp"> <h4>REAFIRMANTS</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals5.jsp"> POST-PART </a>
+                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals5.jsp"> <h4>POST-PART</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals6.jsp"> ALGUES / FANG </a>
+                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals6.jsp"> <h4>ALGUES / FANG</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals7.jsp"> TRADICIONAL TAILANDÈS </a>
+                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals7.jsp"> <h4>TRADICIONAL TAILANDÈS</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals8.jsp"> SACROCRANEAL </a>
+                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals8.jsp"> <h4>SACROCRANEAL</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals9.jsp"> PEELING AMB HIDRATACIÓ </a>
+                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals9.jsp"> <h4>PEELING AMB HIDRATACIÓ</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals10.jsp"> MASSATGE ON SITE </a>
+                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals10.jsp"> <h4>MASSATGE ON SITE</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals11.jsp"> QUIRO - GLOF </a>
+                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals11.jsp"> <h4>QUIRO - GLOF</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals12.jsp"> MASSATGE EVÉRITE </a>
+                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals12.jsp"> <h4>MASSATGE EVÉRITE</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals13.jsp"> RELAX I LLUM </a>
+                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals13.jsp"> <h4>RELAX I LLUM</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals14.jsp"> LIPOESCLITURA BIOLÓGICA </a>
+                                <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals14.jsp"> <h4>LIPOESCLITURA BIOLÓGICA</h4> </a>
                             </div>
                         </div>
 
                         <div class="accordion-heading">
-                            <a class="accordion-toggle link" data-href="./depilacions.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+                            <a class="accordion-toggle link" data-href="./depilacions.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseFour">
                                 <h3>DEPILACIONS</h3>
                             </a>
                         </div>
                         <div id="collapseFour" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                <a class ="sub link" href="#collapseFour" data-href="./Depilacions/depilacions1.jsp"> CERA TÈBIA / CALENTA </a>
-                                <a class ="sub link" href="#collapseFour" data-href="./Depilacions/depilacions2.jsp"> LÀSER </a>  
+                                <a class ="sub link" href="#collapseFour" data-href="./Depilacions/depilacions1.jsp"> <h4>CERA TÈBIA / CALENTA</h4> </a>
+                                <a class ="sub link" href="#collapseFour" data-href="./Depilacions/depilacions2.jsp"> <h4>LÀSER</h4> </a>  
                             </div>
                         </div>
 
                         <div class="accordion-heading">
-                            <a class="accordion-toggle link" data-href="./estil.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
+                            <a class="accordion-toggle link" data-href="./estil.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseFive">
                                 <h3>ESTIL</h3>
                             </a>
                         </div>
                         <div id="collapseFive" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                <a class ="sub link" href="#collapseFour" data-href="./Estil/estil1.jsp"> PERRUQUERIA </a>
+                                <a class ="sub link" href="#collapseFour" data-href="./Estil/estil1.jsp"> <h4>PERRUQUERIA</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseFour" data-href="./Estil/estil2.jsp"> PEDICURA / MANICURA </a>
+                                <a class ="sub link" href="#collapseFour" data-href="./Estil/estil2.jsp"> <h4>PEDICURA / MANICURA</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseFour" data-href="./Estil/estil3.jsp"> MICROPIGMENTACIÓ </a>
+                                <a class ="sub link" href="#collapseFour" data-href="./Estil/estil3.jsp"> <h4>MICROPIGMENTACIÓ</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseFour" data-href="./Estil/estil4.jsp"> MAQUILLATGE NIT, DIA I NÚVIES </a>
+                                <a class ="sub link" href="#collapseFour" data-href="./Estil/estil4.jsp"> <h4>MAQUILLATGE NIT, DIA I NÚVIES </a>
                                 <br>
-                                <a class ="sub link" href="#collapseFour" data-href="./Estil/estil15.jsp"> CURS D'AUTOMAQUILLATGE </a>
+                                <a class ="sub link" href="#collapseFour" data-href="./Estil/estil15.jsp"> <h4>CURS D'AUTOMAQUILLATGE </a>
                             </div>
                         </div>
 
                         <div class="accordion-heading">
-                            <a class="accordion-toggle link" data-href="./medicinesNaturals.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix">
+                            <a class="accordion-toggle link" data-href="./medicinesNaturals.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseSix">
                                 <h3>MEDECINES NATURALS</h3>
                             </a>
                         </div>
                         <div id="collapseSix" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                <a class ="sub link" href="#collapseFour" data-href="./Medecines/medecines1.jsp"> OSTEOPATIA </a>
+                                <a class ="sub link" href="#collapseFour" data-href="./Medecines/medecines1.jsp"> <h4>OSTEOPATIA</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseFour" data-href="./Medecines/medecines2.jsp"> FLORS DE BACH </a>
+                                <a class ="sub link" href="#collapseFour" data-href="./Medecines/medecines2.jsp"> <h4>FLORS DE BACH</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseFour" data-href="./Medecines/medecines3.jsp"> ACUPUNTURA </a>
+                                <a class ="sub link" href="#collapseFour" data-href="./Medecines/medecines3.jsp"> <h4>ACUPUNTURA</h4> </a>
                             </div>
                         </div>
 
 
                         <div class="accordion-heading">
-                            <a class="accordion-toggle link" data-href="./iogaIntegral.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven">
+                            <a class="accordion-toggle link" data-href="./iogaIntegral.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseSeven">
                                 <h3>IOGA INTEGRAL</h3>
                             </a>
                         </div>
@@ -162,19 +162,19 @@
                         </div>
                         -->
                         <div class="accordion-heading">
-                            <a class="accordion-toggle link" data-href="./aparells.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseEight">
+                            <a class="accordion-toggle link" data-href="./aparells.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseEight">
                                 <h3>APARELLS</h3>
                             </a>
                         </div>
                         <div id="collapseEight" class="accordion-body collapse">
                             <div class="accordion-inner">
-                                <a class ="sub link" href="#collapseEight" data-href="./Aparells/aparells1.jsp"> VELASMOOTH </a>
+                                <a class ="sub link" href="#collapseEight" data-href="./Aparells/aparells1.jsp"> <h4>VELASMOOTH</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseEight" data-href="./Aparells/aparells2.jsp"> DERMAJET   </a>
+                                <a class ="sub link" href="#collapseEight" data-href="./Aparells/aparells2.jsp"> <h4>DERMAJET</h4>   </a>
                                 <br>
-                                <a class ="sub link" href="#collapseEight" data-href="./Aparells/aparells3.jsp"> TEI SISTEM </a>
+                                <a class ="sub link" href="#collapseEight" data-href="./Aparells/aparells3.jsp"> <h4>TEI SISTEM</h4> </a>
                                 <br>
-                                <a class ="sub link" href="#collapseEight" data-href="./Aparells/aparells4.jsp"> PRESOTERÀPIA </a>
+                                <a class ="sub link" href="#collapseEight" data-href="./Aparells/aparells4.jsp"> <h4>PRESOTERÀPIA</h4> </a>
                             </div>
                         </div>
                     </div>
