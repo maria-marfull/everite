@@ -38,8 +38,11 @@ public class contacte extends HttpServlet {
             String nom = request.getParameter("nom");
             String email = request.getParameter("email");
             if(!esUnMail(email)) {
+                
                 request.getSession().setAttribute("cont_mail", "control-group warning");
-                response.sendRedirect("./contacte.jsp");
+                response.sendRedirect("./index.jsp");
+                
+                
             }
             else {
                request.getSession().setAttribute("cont_mail", "control-group");
@@ -54,11 +57,11 @@ public class contacte extends HttpServlet {
             String feedMsg = "El teu missatge s'ha enviat correctament";
             String pag_sig = "./index.jsp";
             String time = "5";
-            /*if(error < 0) {
-                feedMsg = "El teu missatge no s'ha pogut enviar, intenta comunicar-te amb l'equip en l'apartat Sobre Nosaltres";
-                pag_sig = "./sobreNosaltres.jsp";
-                time = "6";
-            }*/
+            if(error < 0) {
+                feedMsg = "El teu missatge no s'ha pogut enviar, revisa les teves dades";
+                pag_sig = "./index.jsp";
+                time = "5";
+            }
             request.setAttribute("feed", feedMsg);
             request.setAttribute("sig", pag_sig);
             request.setAttribute("time", time);

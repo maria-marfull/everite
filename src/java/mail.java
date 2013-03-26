@@ -45,7 +45,6 @@ public class mail {
     public static int sendEmailFromUs(String sourceAddress, String nom, String tel, String text) throws MessagingException  { 
         Transport t = null;
         text+="\n\n\nDADES DEL CONTACTE:\n\nNom: "+nom+"\nE-mail: "+sourceAddress+ "\nTelf: " + tel;
-        nom+=" (from " +sourceAddress+")";
         try {
             Properties props = new Properties();
             props.setProperty("mail.smtp.host", "smtp.gmail.com");
