@@ -44,25 +44,26 @@ public class contacte extends HttpServlet {
             else {
                request.getSession().setAttribute("cont_mail", "control-group");
             }
+            String telefon = request.getParameter("telefon");
             String subject = request.getParameter("sbj");
             if(subject.equals("")) subject = "(sense assumpte)";
             String msg = request.getParameter("msg");
 
-            int error = mail.sendEmailFromUs(email, nom, subject, msg);
+            int error = mail.sendEmailFromUs(email, nom, telefon, subject, msg);
             
-           /* String feedMsg = "El teu missatge s'ha enviat correctament";
-            String pag_sig = "./contacte.jsp";
-            String time = "3";
-            if(error < 0) {
+            String feedMsg = "El teu missatge s'ha enviat correctament";
+            String pag_sig = "./index.jsp";
+            String time = "5";
+            /*if(error < 0) {
                 feedMsg = "El teu missatge no s'ha pogut enviar, intenta comunicar-te amb l'equip en l'apartat Sobre Nosaltres";
                 pag_sig = "./sobreNosaltres.jsp";
                 time = "6";
-            }
+            }*/
             request.setAttribute("feed", feedMsg);
             request.setAttribute("sig", pag_sig);
             request.setAttribute("time", time);
-            RequestDispatcher reqDispatcher = getServletConfig().getServletContext().getRequestDispatcher("/contacte.jsp");
-            reqDispatcher.forward(request,response);*/
+            RequestDispatcher reqDispatcher = getServletConfig().getServletContext().getRequestDispatcher("/feedback.jsp");
+            reqDispatcher.forward(request,response);
         }catch(Exception e) {
             e.printStackTrace();
         }finally {            

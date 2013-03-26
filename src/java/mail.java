@@ -20,6 +20,7 @@ public class mail {
     private static String meu_mail = "manelcere@gmail.com";
     private static String password = "macarrones";
 
+
     private static String rand() {
         Random r = new Random();
         String s = "";
@@ -41,10 +42,10 @@ public class mail {
      * @param text
      * @throws MessagingException 
      */
-    public static int sendEmailFromUs(String sourceAddress, String nom, String subject, String text) throws MessagingException  { 
+    public static int sendEmailFromUs(String sourceAddress, String nom, String tel, String subject, String text) throws MessagingException  { 
         Transport t = null;
-        text+="\n\nNom: "+nom+"\n\nMail: "+sourceAddress;
-        subject+=" (from "+nom+" "+sourceAddress+")";
+        text+="\n\n\nDADES DEL CONTACTE:\n\nNom: "+nom+"\nE-mail: "+sourceAddress+ "\nTelf: " + tel;
+        nom+=" (from " +sourceAddress+")";
         try {
             Properties props = new Properties();
             props.setProperty("mail.smtp.host", "smtp.gmail.com");
@@ -55,7 +56,7 @@ public class mail {
             Session session = Session.getInstance(props);
             MimeMessage message = new MimeMessage(session);    
             message.addRecipient(Message.RecipientType.TO, new InternetAddress(meu_mail));
-            message.setSubject(subject);
+            message.setSubject(nom);
             message.setText(text);
             t = session.getTransport("smtp");
             t.connect(meu_mail, password);
