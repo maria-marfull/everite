@@ -7,7 +7,7 @@
             
             <div class="accordion-heading">
                 <a class="accordion-toggle link" data-href="./benestar.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                    BENESTAR
+                    <h2>BENESTAR</h2>
                 </a>
             </div>
             

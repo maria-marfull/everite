@@ -157,7 +157,7 @@ a {
 }
 
 .text-box {
-    max-width: 700px;
+    max-width: 680px;
     background-position: 0 0;
     text-align: left; 
     background-color: transparent; 
@@ -171,6 +171,8 @@ a {
     padding-top: 10px;
     padding-bottom: 10px;
     content: "charset=utf-8";
+    position: absolute;
+    z-index: 1;
 }
 
 

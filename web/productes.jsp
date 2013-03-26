@@ -20,14 +20,14 @@
             <table >
                 <tr >
                     <td align ="center">
-                        <image  src="./images/Products/NaturaBisse.gif" width="250" height="250" /> 
+                        <a href="http://www.naturabisse.es/" target="_blank"><image  src="./images/Products/NaturaBisse.gif" width="250" height="250" /></a> 
                     </td>
                     <td align ="center" >
-                        <image  src="./images/Products/granc.png" width="100" height="100" />
+                        <image  src="./images/Products/granc.gif" width="100" height="100" />
 
                     </td>
                     <td align ="center" >
-                        <image src="./images/Products/loreal_logo.jpg" width="250" height="250" />
+                        <a href="http://www.loreal.es/" target="_blank"><image src="./images/Products/loreal_logo.gif" width="250" height="250" /></a>
                     </td>
                 </tr>
 
@@ -35,14 +35,14 @@
                 
                 <tr>
                     <td align ="center" >
-                        <image src="./images/Products/alain.png" width="150" height="150" /> 
+                        <a href="http://www.alain-ganancia.com/" target="_blank"><image src="./images/Products/alain.png" width="150" height="150" /></a>
                     </td>
                     <td align ="center" >
-                        <image src="./images/Products/guinot.jpg" width="200" height="200" />
+                        <a href="http://www.guinot.com/" target="_blank"><image src="./images/Products/guinot.gif" width="200" height="200" /></a>
 
                     </td>
                     <td align ="center" >
-                        <image src="./images/Products/MastersColors.jpg" width="100" height="100" />
+                        <a href="http://www.masterscolors.com/" target="_blank"><image src="./images/Products/MastersColors.gif" width="100" height="100" /></a>
                     </td>
                 </tr>
             </table>

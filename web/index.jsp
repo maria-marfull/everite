@@ -16,10 +16,10 @@
         <link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
         <link href="./bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
         <link href="./style.css" rel="stylesheet">
-        <link type="image/x-icon" href="./images/Logotip.gif" rel="shortcut icon"/>
+        <link type="image/x-icon" href="./images/favicon.ico" rel="shortcut icon"/>
         
         
-        <title>Everite</title>
+        <title>Everite | Centre d'estetica i peruqueria</title>
     </head>
 
     
