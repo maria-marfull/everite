@@ -7,135 +7,10 @@
 */
 
 
-/* Menú de navegació */
-.span2 {
-    padding-right: 10px;
-    font-family: century-gotic;
-    width: 220px;
-}
 
-.body {
-    font-family: century gothic;
-    text-align: left;
-}
 
-.menu {
-    
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-    font-family: century gotic;
-    width: 220px;
-}
 
-.contingut {
-    width: 700px;
-    padding-right: 20px;
-    padding-top: 20px;
-    
-    
-}
 
-/* Logo */
-.span4 {
-    height: 100px;
-    padding-left: 10px;
-}
-
-/* Títol */
-.span8 {
-    height: 100px;
-    padding-right: 10px;
-}
-
-/* Contingut */
-.span10 {
-    padding-left: 10px;
-}
-
-/* Header i footer */
-.span12 {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#footer {
-    text-align:center;
-}
-
-.h1 {
-    height: 100%;
-    font-size:12px;
-}
-
-.accordion-group {
-    border: 1px solid #ffffff;
-}
-
-.accordion-inner {
-    padding: 9px 15px;
-    border-top: 1px solid #ffffff;
-}
-
-.accordion-toggle {
-    font-family:century gothic;
-    color:black;
-    font-size:16px;
-}
-
-.animacio {
-    max-width: 700px;
-    widht:700px;
-    height: 400px;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    overflow: hidden;
-    padding: 0px;
-    position: relative;
-    /* background-image: url('./images/benestar.jpg'); */
-}
-
-.all {
-    width: 960px;
-    min-width: 940px;
-    max-width: 960px;
-    margin: auto;
-}
-
-.header {
-    width: 960px;
-    padding-top: 10px;
-}
-
-.h2 {
-    font-family: century-gotic;
-    font-size: 10px;
-    
-}
-
-.line {
-    border: 0;
-    border-collapse: collapse;
-    border-top: 1px solid #CCCCCC;
-    border-right:1px solid #CCCCCC;
-}
-
-.title {
-    text-align:right; 
-    font-style: century gothic; 
-    color: grey;
-    font-size:20px;
-    padding-bottom: 0px;
-}
-
-.submenu {
-    text-align: left; 
-    padding-left: 15px;
-    font-style: century-gotic; 
-    font-size:16px;
-    color: black;
-    font-weight: normal;
-}
 
 a {
     text-align: left;
@@ -156,7 +31,153 @@ a {
     
 }
 
+
+
+
+/*_-+-+-+-+-+. GENERAL .+-+-+-+-+-_*/
+
+body {
+    font-family: century gothic;
+    text-align: left;
+    overflow: hidden;
+}
+.all {
+    width: 960px;
+    min-width: 940px;
+    max-width: 960px;
+    margin: auto;
+}
+
+
+.contingut {
+    width: 700px;
+    padding-right: 20px;
+    padding-top: 20px;
+    
+    
+}
+
+.container{ /*Idem .contingut per pàgines sense Animació*/
+    position: absolute;
+    width: 700px;
+    z-index: -1;
+    margin-left: 250px;
+}
+
+.animacio {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    /* background-image: url('./images/benestar.jpg'); */
+    z-index: -999;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+
+a:link {color:white; text-decoration:none;}      /* unvisited link */
+a:visited {color:white; text-decoration:none;}  /* visited link */
+a:hover {color:whitesmoke; text-decoration:none;}  /* mouse over link */
+a:active {color:red; text-decoration:none;}  /* selected link */
+
+.clear { clear: both;}
+
+/*_ Bootstrap _*/
+.accordion-group {
+    border:0;
+}
+
+
+
+/*_-+-+-+-+-+. HEADER .+-+-+-+-+-_*/
+
+.header{
+    width: 960px;
+    padding-top: 10px;
+    border-bottom: 6px solid;
+    height: 70px;
+    clear: both;
+}
+.logo {
+    float: left;
+    padding-bottom: 15px;
+}
+.slogan {
+    float: right;
+    padding-top: 30px;
+}
+.title {
+    text-align:right; 
+    font-family: century gothic; 
+    color: black;
+    font-size:1.5em;
+}
+
+
+
+
+/*_-+-+-+-+-+. NAVEGACIÓ .+-+-+-+-+-_*/
+
+/* Menú */
+.menu {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 10px 0px 10px;
+    font-family: century gothic;
+    width: 220px;
+    position: absolute;
+    margin-top: 20px;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin:0;
+    font-weight: bold;
+}
+h2 {
+    font-size: 1.5em;
+    line-height: 1em;
+}
+h3 {
+    font-size: 1em;
+    line-height: 1em;
+    margin:0;
+}
+h4 {
+    font-size: 1em;
+    line-height: 1em;
+    margin:0;
+    font-weight: lighter;
+    padding-left: 10px;
+
+}
+
+.h4_last {
+    margin-bottom: 10px;
+}
+
+.accordion-heading .accordion-toggle {
+padding: 0;
+}
+.accordion-inner {
+padding: 0;
+}
+
+
+
+/*_-+-+-+-+-+. CONTENT .+-+-+-+-+-_*/
+
 .text-box {
+    margin-left: 250px;
     max-width: 680px;
     background-position: 0 0;
     text-align: left; 
@@ -173,7 +194,102 @@ a {
     content: "charset=utf-8";
     position: absolute;
     z-index: 1;
+    font-family: georgia;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    line-height: 1.1em;
 }
 
 
 
+/*_-+-+-+-+-+. EL CENTRE .+-+-+-+-+-_*/
+
+.imgbgcentre {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    background-image: url('http://wallpoper.com/images/00/29/94/90/bamboo-stones_00299490.jpg');
+    z-index: -999;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.textalmig {} /* Div preparat per donar estils a les caixes de text que no siguin text-box */
+
+
+
+
+/*_-+-+-+-+-+. CONTACTE .+-+-+-+-+-_*/
+
+.imgbgcontacte {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    background-image: url('http://hidefwalls.com/wp-content/g/1_beach_wallpaper_03/free-beautiful-beach-wallpaper-for-desktop.jpg');
+    z-index: -999;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.formulari {
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+    margin-right: -10px;
+}
+
+.mapa {
+    width: 50%;
+    float: left;
+}
+
+/*_ Formulari _*/
+
+.form-horizontal .control-label { text-align: left; font-family: century gothic; }
+.form-horizontal .controls { margin:0; }
+label {margin: 0;}
+.form-horizontal .control-group { margin: 0;}
+.control-group { margin: 0; }
+.form-horizontal .form-actions { margin: 0; padding: 0; }
+.form-actions {
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+}
+
+
+
+/*_-+-+-+-+-+. FOOTER .-+-+-+-+-+-_*/
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    margin-bottom: 1em;
+    padding: 10px;
+    text-align: center;
+    width: 960px;
+}
+
+#copyright {
+    color: white;
+}

@@ -2,7 +2,7 @@
 
 <div class="text-box">
         <p>
-        Terapia relaxant amb pedres volcàniques, elimina tensions activant tota la movilitat interna mitjançant calor.
+            "Terapia relaxant amb pedres volcàniques,</br>&nbsp;&nbsp;elimina tensions activant tota la movilitat</br>&nbsp;&nbsp;interna mitjançant calor."
         </p>
 </div>
 

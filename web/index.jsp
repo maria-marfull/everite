@@ -54,29 +54,7 @@
                 });
             });
         </script>
-
-        <div class="all">  
-        
-            <jsp:include page="./header.jsp" />
-            
-        
-            <!-- Navigation and Content -->
-            <table class="line">
-
-                <tr>
-                <td>
-                <!--Sidebar content-->
-                <jsp:include page="./navigation.jsp">
-                    <jsp:param name="section" value="index" />
-                </jsp:include>
-                </td>
-
-                <!--Body content-->   
-                <td style="vertical-align: 0;">
-
-                <div class="contingut" id="content">
-
-                    <script type="text/javascript">
+<script type="text/javascript">
                         var interval;
                         var interval_move;
                         
@@ -174,22 +152,33 @@
 
                         }
 
-                    </script>        
-
-
-                    <div id="animacio" class="animacio">
-
-                    </div>
-                </div>
-                </td>
-                </tr>
-            </div>
+                    </script>       
+                    
+<div class="all">  
+    <div class="header">
+        <div class="logo"><a href="./index.jsp"><img src="http://everite.es/Logo_Everite.png" /></a>
         </div>
-
-
-        </table>
-
-        <jsp:include page="./footer.jsp" />
+        <div class="slogan">  
+            <h1 class ="title">CENTRE D'ESTÈTICA i PERRUQUERIA</h1>
+        </div>
+    </div>
+    <div class"clear"></div>
+            
+    <!--Menu content-->
+    <jsp:include page="./navigation.jsp">                   
+    <jsp:param name="section" value="index" />
+    </jsp:include>
+    <!--Body content-->   
+    <div class="contingut" id="content">
+        <div id="animacio" class="animacio">
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <p id="copyright">2013 Evérite | Centre d'estètica i perruqueria S.L. Tots els drets reservats.</p>
+    </div>
+</div>
+        
 
 
        
