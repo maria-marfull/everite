@@ -1,52 +1,141 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
+<style>
+    div.dropdownUP
+    {
+        display: none;
+    }
+</style>
+
+<script>
+    $(document).ready( function()
+    {
+        $("a#collapseCentre").click(function()    { 
+            $("div#dropCollapseOne").slideUp(); 
+            $("div#dropCollapseOneOne").slideUp();
+            $("div#dropCollapseTwo").slideUp(); 
+            $("div#dropCollapseThree").slideUp(); 
+            $("div#dropCollapseFour").slideUp();
+            $("div#dropCollapseFive").slideUp(); 
+            $("div#dropCollapseSix").slideUp();
+        });
+        $("a#collapseProductes").click(function()    { 
+            $("div#dropCollapseOne").slideUp(); 
+            $("div#dropCollapseOneOne").slideUp();
+            $("div#dropCollapseTwo").slideUp(); 
+            $("div#dropCollapseThree").slideUp(); 
+            $("div#dropCollapseFour").slideUp();
+            $("div#dropCollapseFive").slideUp(); 
+            $("div#dropCollapseSix").slideUp();
+        });
+        $("a#collapseContacte").click(function()    { 
+            $("div#dropCollapseOne").slideUp(); 
+            $("div#dropCollapseOneOne").slideUp();
+            $("div#dropCollapseTwo").slideUp(); 
+            $("div#dropCollapseThree").slideUp(); 
+            $("div#dropCollapseFour").slideUp();
+            $("div#dropCollapseFive").slideUp(); 
+            $("div#dropCollapseSix").slideUp();
+        });
+        $("a#collapseOne").click(function()    { 
+            $("div#dropCollapseOne").slideToggle(); 
+        });
+        $("a#collapseOneOne").click(function() { 
+            $("div#dropCollapseOneOne").slideToggle();
+            $("div#dropCollapseTwo").slideUp(); 
+            $("div#dropCollapseThree").slideUp(); 
+            $("div#dropCollapseFour").slideUp();
+            $("div#dropCollapseFive").slideUp(); 
+            $("div#dropCollapseSix").slideUp();
+        });
+        $("a#collapseTwo").click(function()    { 
+            $("div#dropCollapseOneOne").slideUp();  
+            $("div#dropCollapseTwo").slideToggle(); 
+            $("div#dropCollapseThree").slideUp(); 
+            $("div#dropCollapseFour").slideUp(); 
+            $("div#dropCollapseFive").slideUp(); 
+            $("div#dropCollapseSix").slideUp();
+        });
+        $("a#collapseThree").click(function()    { 
+            $("div#dropCollapseOneOne").slideUp();  
+            $("div#dropCollapseTwo").slideUp(); 
+            $("div#dropCollapseThree").slideToggle(); 
+            $("div#dropCollapseFour").slideUp(); 
+            $("div#dropCollapseFive").slideUp(); 
+            $("div#dropCollapseSix").slideUp();
+        });
+        $("a#collapseFour").click(function()    { 
+            $("div#dropCollapseOneOne").slideUp();  
+            $("div#dropCollapseTwo").slideUp(); 
+            $("div#dropCollapseThree").slideUp(); 
+            $("div#dropCollapseFour").slideToggle(); 
+            $("div#dropCollapseFive").slideUp(); 
+            $("div#dropCollapseSix").slideUp();
+        });
+        $("a#collapseFive").click(function()    { 
+            $("div#dropCollapseOneOne").slideUp();  
+            $("div#dropCollapseTwo").slideUp(); 
+            $("div#dropCollapseThree").slideUp(); 
+            $("div#dropCollapseFour").slideUp(); 
+            $("div#dropCollapseFive").slideToggle(); 
+            $("div#dropCollapseSix").slideUp();
+        });
+        $("a#collapseSix").click(function()    { 
+            $("div#dropCollapseOneOne").slideUp();  
+            $("div#dropCollapseTwo").slideUp(); 
+            $("div#dropCollapseThree").slideUp(); 
+            $("div#dropCollapseFour").slideUp(); 
+            $("div#dropCollapseFive").slideUp(); 
+            $("div#dropCollapseSix").slideToggle();
+        });
+    });
+</script>
+
+
 <div class="menu">
 
-    <div class="accordion" id="accordion2">
+    <div class="" id="accordion2">
         <div class="accordion-group">
             
-            <div class="accordion-heading">
-                <a class="accordion-toggle link" data-href="./centre.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseZero">
+            <div class="">
+                <a class="link" data-href="./centre.jsp" id="collapseCentre" data-toggle="collapse" data-parent="#accordion2" href="#collapseZero">
                     <h2>EL CENTRE</h2>
                 </a>
             </div>
             
-            <div class="accordion-heading">
-                <a class="accordion-toggle link" data-href="./serveis.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+            <div>
+                <a class="link" id="collapseOne" data-href="./serveis.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
                     <h2>SERVEIS</h2>
                 </a>
             </div>
             
-            <div id="collapseOne" class="accordion-body collapse">
-                <div class="accordion-inner">
+            <div id="collapseOne" class="" >
+                <div class="dropdownUP" id="dropCollapseOne">
                     
-                    <div class="accordion" id="accordion3">
+                    <div class="">
                     
-                        <div class="accordion-heading">
-
-                            <a class="accordion-toggle link" data-href="./benestar.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseOneOne">
+                        <div class="" >
+                            <a class="link" data-href="./benestar.jsp" id="collapseOneOne" data-toggle="collapse" data-parent="#accordion3" href="#collapseOneOne">
                                 <h3>BENESTAR</h3>
                             </a>
-
                         </div>
-
-                        <div id="collapseOneOne" class="accordion-body collapse">
-                            <div class="accordion-inner">
-                                <a  class="sub link" href="#collapseOneOne" data-href="./Benestar/benestar1.jsp"> <h4>MASSATGE AMB PEDRES CALENTES</h4> </a>
-                                <a class ="sub link" href="#collapseOneOne" data-href="./Benestar/benestar2.jsp"> <h4>MASSATGE AMB PINDES FLORALS</h4> </a>
-                                <a class ="sub link" href="#collapseOneOne" data-href="./Benestar/benestar3.jsp"> <h4>RITUAL MAGNÈTIC</h4> </a>
-                                <a class ="sub link" href="#collapseOneOne" data-href="./Benestar/benestar4.jsp"> <h4>MASSATGE AYURVÈDIC</h4> </a>
+                        <div id="dropCollapseOneOne" class="dropdownUP">
+                            <div class="">
+                                <a class="sub link" href="#collapseOneOne" data-href="./Benestar/benestar1.jsp"> <h4>MASSATGE AMB PEDRES CALENTES</h4> </a>
+                                <a class="sub link" href="#collapseOneOne" data-href="./Benestar/benestar2.jsp"> <h4>MASSATGE AMB PINDES FLORALS</h4> </a>
+                                <a class="sub link" href="#collapseOneOne" data-href="./Benestar/benestar3.jsp"> <h4>RITUAL MAGNÈTIC</h4> </a>
+                                <a class="sub link" href="#collapseOneOne" data-href="./Benestar/benestar4.jsp"> <h4>MASSATGE AYURVÈDIC</h4> </a>
                                 <a class="sub link" href="#collapseOneOne" data-href="./Benestar/benestar5.jsp"> <h4 class="h4_last">DIAMOND - EXPERIENCE</h4> </a>
                             </div>
                         </div>
 
-                        <div class="accordion-heading">
-                            <a class="accordion-toggle link" data-href="./facials.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseTwo">
+                        <div class="">
+                            <a class="link" data-href="./facials.jsp" id="collapseTwo" data-toggle="collapse" data-parent="#accordion3" href="#collapseTwo" >
                                 <h3>FACIALS</h3>
                             </a>
                         </div>
-                        <div id="collapseTwo" class="accordion-body collapse">
-                            <div class="accordion-inner">
+                        <div id="dropCollapseTwo" class="dropdownUP">
+                            <div class="">
                                 <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials1.jsp"> <h4>HIDRATANTS</h4> </a>
                                 <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials2.jsp"> <h4>REAFIRMANTS</h4> </a>
                                 <a class ="sub link" href="#collapseTwo" data-href="./Facials/facials3.jsp"> <h4>DESPIGMENTANTS</h4> </a>
@@ -59,13 +148,13 @@
                         </div>
                     
                         
-                        <div class="accordion-heading">
-                            <a class="accordion-toggle link" data-href="./corporals.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree">
+                        <div class="">
+                            <a class="link" data-href="./corporals.jsp" id="collapseThree" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree">
                                 <h3>CORPORALS</h3>
                             </a>
                         </div>
-                        <div id="collapseThree" class="accordion-body collapse">
-                            <div class="accordion-inner">
+                        <div id="dropCollapseThree" class="dropdownUP">
+                            <div class="">
                                 <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals1.jsp"> <h4>QUIROMASSATGE</h4> </a>
                                 <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals2.jsp"> <h4>DRENATGE LINFÀNIC</h4> </a>
                                 <a class ="sub link" href="#collapseThree" data-href="./Corporals/corporals3.jsp"> <h4>ANTICEL·LIÍTIC</h4> </a>
@@ -83,25 +172,25 @@
                             </div>
                         </div>
 
-                        <div class="accordion-heading">
-                            <a class="accordion-toggle link" data-href="./depilacions.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseFour">
+                        <div class="">
+                            <a class="link" data-href="./depilacions.jsp" id="collapseFour" data-toggle="collapse" data-parent="#accordion3" href="#collapseFour">
                                 <h3>DEPILACIONS</h3>
                             </a>
                         </div>
-                        <div id="collapseFour" class="accordion-body collapse">
-                            <div class="accordion-inner">
+                        <div id="dropCollapseFour" class="dropdownUP">
+                            <div class="">
                                 <a class ="sub link" href="#collapseFour" data-href="./Depilacions/depilacions1.jsp"> <h4>CERA TÈBIA / CALENTA</h4> </a>
                                 <a class ="sub link" href="#collapseFour" data-href="./Depilacions/depilacions2.jsp"> <h4 class="h4_last">LÀSER</h4> </a>  
                             </div>
                         </div>
 
-                        <div class="accordion-heading">
-                            <a class="accordion-toggle link" data-href="./estil.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseFive">
+                        <div class="">
+                            <a class=" link" data-href="./estil.jsp" id="collapseFive" data-toggle="collapse" data-parent="#accordion3" href="#collapseFive">
                                 <h3>ESTIL</h3>
                             </a>
                         </div>
-                        <div id="collapseFive" class="accordion-body collapse">
-                            <div class="accordion-inner">
+                        <div id="dropCollapseFive" class=" collapse">
+                            <div class="">
                                 <a class ="sub link" href="#collapseFour" data-href="./Estil/estil1.jsp"> <h4>PERRUQUERIA</h4> </a>
                                 <a class ="sub link" href="#collapseFour" data-href="./Estil/estil2.jsp"> <h4>PEDICURA / MANICURA</h4> </a>
                                 <a class ="sub link" href="#collapseFour" data-href="./Estil/estil3.jsp"> <h4>MICROPIGMENTACIÓ</h4> </a>
@@ -110,13 +199,13 @@
                             </div>
                         </div>
 
-                        <div class="accordion-heading">
-                            <a class="accordion-toggle link" data-href="./medicinesNaturals.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseSix">
+                        <div class="">
+                            <a class=" link" data-href="./medicinesNaturals.jsp" id="collapeSix" data-toggle="collapse" data-parent="#accordion3" href="#collapseSix">
                                 <h3>MEDECINES NATURALS</h3>
                             </a>
                         </div>
-                        <div id="collapseSix" class="accordion-body collapse">
-                            <div class="accordion-inner">
+                        <div id="dropCollapseSix" class="collapse">
+                            <div class="">
                                 <a class ="sub link" href="#collapseFour" data-href="./Medecines/medecines1.jsp"> <h4>OSTEOPATIA</h4> </a>
                                 <a class ="sub link" href="#collapseFour" data-href="./Medecines/medecines2.jsp"> <h4>FLORS DE BACH</h4> </a>
                                 <a class ="sub link" href="#collapseFour" data-href="./Medecines/medecines3.jsp"> <h4 class="h4_last">ACUPUNTURA</h4> </a>
@@ -124,8 +213,8 @@
                         </div>
 
 
-                        <div class="accordion-heading">
-                            <a class="accordion-toggle link" data-href="./iogaIntegral.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseSeven">
+                        <div class="">
+                            <a class="link" data-href="./iogaIntegral.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseSeven">
                                 <h3>IOGA INTEGRAL</h3>
                             </a>
                         </div>
@@ -135,13 +224,13 @@
                             </div>
                         </div>
                         -->
-                        <div class="accordion-heading">
-                            <a class="accordion-toggle link" data-href="./aparells.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseEight">
+                        <div class="">
+                            <a class=" link" data-href="./aparells.jsp" data-toggle="collapse" data-parent="#accordion3" href="#collapseEight">
                                 <h3>APARELLS</h3>
                             </a>
                         </div>
-                        <div id="collapseEight" class="accordion-body collapse">
-                            <div class="accordion-inner">
+                        <div id="collapseEight" class=" collapse">
+                            <div class="">
                                 <a class ="sub link" href="#collapseEight" data-href="./Aparells/aparells1.jsp"> <h4>VELASMOOTH</h4> </a>
                                 <a class ="sub link" href="#collapseEight" data-href="./Aparells/aparells2.jsp"> <h4>DERMAJET</h4>   </a>
                                 <a class ="sub link" href="#collapseEight" data-href="./Aparells/aparells3.jsp"> <h4>TEI SISTEM</h4> </a>
@@ -152,8 +241,8 @@
                 </div>
             </div>
             
-            <div class="accordion-heading">
-                <a class="accordion-toggle link"  data-href="./productes.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseNine">
+            <div class="">
+                <a class=" link"  data-href="./productes.jsp" id="collapseProductes" data-toggle="collapse" data-parent="#accordion2" href="#collapseNine">
                     <h2>PRODUCTES</h2>
                 </a>
             </div>
@@ -165,8 +254,8 @@
             -->
 
 
-            <div class="accordion-heading">
-                <a class="accordion-toggle link"  data-href="./contacte.jsp" data-toggle="collapse" data-parent="#accordion2" href="#collapseTen">
+            <div class="">
+                <a class=" link"  data-href="./contacte.jsp" id="collapseContacte" data-toggle="collapse" data-parent="#accordion2" href="#collapseTen">
                     <h2>CONTACTE</h2>
                 </a>
             </div>
